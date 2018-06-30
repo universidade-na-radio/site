@@ -1,0 +1,65 @@
+main {
+   width: 80%;
+   margin: 0 auto 0 auto;
+}
+.artigo-da-semana {
+    font-family: oswald;
+    letter-spacing: .1rem;
+    height: 450px;
+    background-image: url(../posts/foto-festejo-junino.png);
+    position: relative;
+    margin-top: 1rem;
+}
+.artigo-principal {
+    position: absolute;
+    float: left;
+    bottom: 20px;
+    border: .5em solid azure;
+    margin-left: 1.4rem;
+}
+.cabecalho-artigo-principal {
+    position: relative;
+}
+.titulo-artigo-principal {
+    font-size: 4.5rem;
+    width: 600px;
+    margin: auto auto auto 5%;
+    color: aliceblue;
+}
+.data-publicacao {
+    position: relative;
+    padding-right: 0;
+    float: right;
+    background-color: azure;
+    color: rgb(95, 95, 95);
+}
+blockquote {
+    margin: 10px auto 10px auto;
+}
+.subtitulo-artigo-principal {
+    font-size: 2.2rem;
+    margin: auto auto auto 5%;
+    color: rgb(219, 219, 219);
+}
+.paragrafo {
+    margin: auto auto auto auto;
+    width: 600px;
+    font-size: 1.4rem;
+    letter-spacing: .04rem;
+    color: rgb(95, 95, 95);
+    background-color: azure;
+    padding: 3px;
+}
+.ler-mais {
+    margin: auto auto 1rem 5%;
+    display: block;
+    cursor: pointer;
+}
+.ler-mais a {
+    line-height: 20px;
+    display: block;
+    color: aliceblue;
+}
+.ler-mais a:hover {
+    text-decoration: underline;
+}

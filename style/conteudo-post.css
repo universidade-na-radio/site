@@ -1,0 +1,35 @@
+.artigo-da-semana {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.titulo-artigo-principal {
+    font-size: 4.5rem;
+    margin: 5% auto auto 5%;
+    color: aliceblue;
+    background-image: url(../posts/foto-festejo-junino.png)
+}
+.data-publicacao {
+    position: relative;
+    padding-right: 50px;
+    float: right;
+    background-color: aliceblue;
+    color: rgb(145, 145, 145);
+}
+.subtitulo-artigo-principal {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    color: rgb(65, 65, 65);
+    font-family: Markazi Text;
+}
+.paragrafo {
+    color: rgb(65, 65, 65);
+    font-family: Markazi Text;
+    font-size: 1.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
