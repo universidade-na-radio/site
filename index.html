@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Universidade na Rádio e na Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/estilo.css">
-    <link rel="stylesheet" href="style/main.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
     <link rel="stylesheet" href="style/cabecalho.css">
     <link rel="stylesheet" href="style/conteudo-principal.css">
-
+    <link rel="stylesheet" href="style/conteudo-post.css">
 </head>
+
 <body>
     <!--Cabeçalho-->
     <header class="cabecalho">
@@ -23,61 +22,87 @@
             <div class="nome-projeto">
                 <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
                 <br>
-                <span class="sudescricao-projeto">Tecnologia Educativa Aplicaca à Distância</span>
+                <span id="sudescricao-projeto"></span>
             </div>
-        <!--Barra de navegação-->
-        <nav class="menu-navegacao">
-            <ul class="lista-menu-pricipal">
-                <li class="lista-menu">
-                    <a href="#Home">Home</a>
-                </li>
-                <li class="lista-menu">
-                    <a href="#Artigos">Artigos</a>
-                </li>
-                <li class="lista-menu">
-                    <a href="#Sobre">Sobre</a>
-                </li>
-            </ul>
-        </nav>
+            <script>
+                var text = 'Tecnologia Educativa à Distância';
+
+                var chars = text.split('');
+                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+
+                var i = 0;
+                setInterval(function () {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);</script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
     <!--Conteúdo principal de artigos-->
     <main>
         <section class="artigo-da-semana">
-            <article>
-                <header>
-                    <h2></h2>
-                    <time datetime=""></time>
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal">Os festejos juninos.</h2>
+                    <time class="data-publicacao" datetime="2018-06-25">25-06-2018</time>
                 </header>
                 <blockquote>
-                    <p></p>
+                    <h3 class="subtitulo-artigo-principal">A origem das festas juninas.</h3>
+                    <p class="paragrafo">O mês de Junho é um dos mais queridos pelos brasileiros, graças a todas as cores, sons e sabores que
+                        o acompanham. Tudo isso graças as chamadas “festas juninas”, que prestam homenagem a três santos
+                        católicos: São João, São Pedro e Santo Antônio.</p>
                 </blockquote>
-                <img src="" alt="foto do artigo">
-                <footer>Ler mais...</footer>
+                <footer class="ler-mais">
+                    <a href="posts/os-festejos-juninos.html">Ler mais...</a>
+                </footer>
             </article>
         </section>
-        <section class="listaArt">
+        
+        <section class="listaDeArtigos">
+
+            <h3 class="artRecentes">Artigos recentes...</h3>
+
             <div class="box artigo1">
+
                 <article>
                     <header>
-                        <img class="imgArt" src="img/copa.svg" alt="Copa do Mundo">
-                        <h3 class="titulo">A copa do mundo na rússia</h3>
+                        <img class="imgDoArtigo" src="img/copa.svg" alt="Copa do Mundo">
+                        <h4 class="titulo">A copa do mundo na rússia</h4>
                     </header>
-                    <p class="texto"> &nbsp;&nbsp;&nbsp;A Copa do Mundo é uma competição internacional organizada pela Federação Internacional
+                    <p class="previaArtigo"> &nbsp;&nbsp;&nbsp;<a href="posts/copa.html" class="linkPost">A Copa do Mundo é uma competição internacional organizada pela Federação Internacional
                         de Futebol a cada quatro anos. A Copa passou a ser realizada em 1930, com a primeira competição acontecendo
-                        no Uruguai. A escolha da nação-sede foi determinada em eleições feitas pela própria...</p>
+                        no Uruguai. A escolha da nação-sede foi determinada em eleições feitas pela própria... Ler mais</a></p>
+
                     <p class="dtPub">Publicado em:
                         <time datetime="2018-06-18">18-06-2018</time>
+                    </p>
                 </article>
             </div>
             <div class="box artigo2">
                 <article>
                     <header>
-                        <img class="imgArt" src="img/idoso.svg" alt="Combate a violencia ao idoso">
-                        <h3 class="titulo">A Violência e a pessoa idosa</h3>
+                        <img class="imgDoArtigo" src="img/idoso.svg" alt="Combate a violencia ao idoso">
+                        <h4 class="titulo">A Violência e a pessoa idosa</h4>
                     </header>
-                    <p class="texto"> &nbsp;&nbsp;&nbsp;O dia 15 de junho marca o Dia Mundial de Conscientização da Violência contra a Pessoa
+                    <p class="previaArtigo"> &nbsp;&nbsp;&nbsp;<a href="posts/idoso.html" class="linkPost">O dia 15 de junho marca o Dia Mundial de Conscientização da Violência contra a Pessoa
                         Idosa. A data foi instituída em 2006 pela ONU - Organização das Nações. No Brasil em 2018 são comemorados
-                        os 70 anos da Declaração Universal dos Direitos Humanos e os 15 anos da aprovação do Estatuto....</p>
+                        os 70 anos da Declaração Universal dos Direitos Humanos e os 15 anos da aprovação do.... Ler mais</a></p>
                     <p class="dtPub">Publicado em:
                         <time datetime="2018-06-11">11-06-2018</time>
                     </p>
@@ -87,13 +112,13 @@
             <div class="box artigo3">
                 <article>
                     <header>
-                        <img class="imgArt" src="img/cristi.svg" alt="Corpus Christi">
-                        <h3 class="titulo">Corpus Christi</h3>
+                        <img class="imgDoArtigo" src="img/cristi.svg" alt="Corpus Christi">
+                        <h4 class="titulo">Corpus Christi</h4>
 
-                        <p class="texto">&nbsp;&nbsp;&nbsp;O feriado aconteceu na última quinta-feira, dia 30. O que poucos sabem é que não
+                        <p class="previaArtigo"> &nbsp;&nbsp;&nbsp;<a href="posts/cristi.html" class="linkPost">O feriado aconteceu na última quinta-feira, dia 30. O que poucos sabem é que não
                             se trata de um feriado nacional, mas sim de ponto facultativo. Ou seja, na maioria das cidades,
                             os empregadores não têm obrigação de liberar os funcionários. Cada empresa decide se vai ou não
-                            paralisar os serviços por...</p>
+                            paralisar os serviços por... Ler mais</a></p>
 
                         <p class="dtPub">Publicado em:
                             <time datetime="">2018-06-04</time>
@@ -102,22 +127,7 @@
                 </article>
 
         </section>
-=======
-            <section class="artigo-da-semana">
-                <article class="artigo-principal">
-                    <header class="cabecalho-artigo-principal">
-                        <h2 class="titulo-artigo-principal">Os festejos juninos.</h2>
-                        <time class="data-publicacao" datetime="2018-06-25">25-06-2018</time>
-                    </header>
-                    <blockquote>
-                        <h3 class="subtitulo-artigo-principal">A origem das festas juninas.</h3>
-                        <p class="paragrafo">O mês de Junho é um dos mais queridos pelos brasileiros, graças a todas as cores, sons e sabores
-                            que o acompanham. Tudo isso graças as chamadas “festas juninas”, que prestam homenagem a três
-                            santos católicos: São João, São Pedro e Santo Antônio.</p>
-                    </blockquote>
-                    <footer class="ler-mais"><a href="#">Ler mais...</a></footer>
-                </article>
-            </section>
+
     </main>
     <!--formulário-->
     <!--  <div>
