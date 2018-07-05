@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="style/cabecalho.css">
+    <link rel="stylesheet" href="style/conteudo-principal.css">
+    <link rel="stylesheet" href="style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                var text = 'Tecnologia Educativa à Distância';
+
+                var chars = text.split('');
+                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+
+                var i = 0;
+                setInterval(function () {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);</script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main>
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal">O dia nacional da adoção</h2>
+                    <time class="data-publicacao" datetime="2018-06-25">28-05-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que é a adoção?</h3>
+                    <p class="paragrafo">No dia 25 de maio é comemorado o dia da adoção, sendo esta uma ação social que acontece através de um ato jurídico, onde é criado um vínculo de parentesco entre duas pessoas ou mais.</p>
+                    <br>
+                    <p class="paragrafo">Muitas pessoas que não puderam ter filhos encontram filhos que não possuem pais, que foram abandonados e recolhidos por orfanatos e outras instituições. Mas existem muitos outros casos, como de pessoas que querem ajudar, cumprir seu papel social diante de uma sociedade injusta, que não oferece as mesmas oportunidades de vida para todos.
+                        </p>
+                    <br>
+                    <p class="paragrafo"> processo de adoção não é fácil. As pessoas interessadas nas crianças ou adolescentes devem comprovar boas condições de vida, para que assim, seja garantido que a pessoa adotada terá conforto, segurança, e que irá ser bem tratada, recebendo amor carinho e atenção dos pais adotivos.</p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">As formas de adoção.</h3>
+                    <p class="paragrafo">O ato de adotar crianças e adolescentes é muito bonito, porém para que seja válido perante a sociedade, existem alguns critérios a serem cumpridos: 
+                            DECISÃO JUDICIAL: a adoção depende da decisão do juiz para ser efetuada. 
+                            CONSENTIMENTO DOS PAIS BIOLÓGICOS: é necessário que os pais biológicos concordem com a adoção. O consentimento só não será exigido quando os pais biológicos forem desconhecidos ou forem afastados. 
+                            </p>
+                    <br>
+                    <p class="paragrafo">CONSENTIMENTO DO ADOTANDO: se a criança tiver mais de 12 anos de idade, será exigido também o seu próprio consentimento com a adoção, isso para que assim, a convivência com a futura família seja mais facilitada.
+                            ESTÁGIO DE CONVIVÊNCIA: A criança deve passar alguns dias se adaptando a sua nova realidade familiar, sendo acompanhada por psicólogos e assistentes sociais.</p>
+                    <br>
+                    <p class="paragrafo">IDADE: a idade mínima de diferença entre adotante e adotado tem que ser de 16 anos.
+                            Assim, é importante estar de olho nestas regras, antes de iniciar o processo de adoção.
+                            </p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A fila de espera da adoção.</h3>
+                    <p class="paragrafo">Filho não se escolhe, mesmo quando é fruto do nosso próprio DNA, ele pode nascer com o tom de pele um pouco mais escuro, com os olhos um pouco mais claro ou até mesmo pode vir a nascer com alguma deficiência. Mas, no sistema de adoção essa realidade é bem distante, as pessoas ainda buscam um padrão de “criança perfeita” para se levar para casa. 
+                    </p>
+                    <br>
+                    <p class="paragrafo">De acordo com o Conselho Nacional de justiça, o Brasil tem hoje uma fila com quase 9.000 mil crianças esperando para serem adotados e quanto mais velhas elas forem, menor é a possibilidade de serem adotadas. 
+                        </p>
+                    <br>
+                    <p class="paragrafo">Esta realidade precisa mudar, é necessário que os interessados em adotar sejam reeducados para não procurarem por um padrão de beleza nas crianças. Pois na adoção, você não tem a garantia de nada, é uma questão de escolha. Quando o filho chega, a entrega é a mesma que se ele fosse biológico.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Família substituta, amor primordial</h3>
+                    <p class="paragrafo">A família substituta deve proteger à criança ou ao adolescente. O espaço familiar é o lugar ideal para a criação e educação da criança ou adolescente, pois será justamente em companhia de seus pais e demais membros que eles terão condições de um melhor desenvolvimento. Os pais são os maiores responsáveis pela formação e proteção do filho.</p>
+                    <br>
+                    <p class="paragrafo">A família sempre foi e continua sendo à base da sociedade. Pois é através dela que vem a educação dos seus filhos e filhas. O Estado através da adoção busca assegurar à criança, a existência de um núcleo familiar que é a base da Sociedade, pois é através do aprendizado, da convivência em família que esse indivíduo vai se identificar dentro da sua comunidade. Mesmo que nos dias atuais o conceito de família seja amplo, pois há várias formas de duas pessoas se unirem e constituir uma família. .</p>
+                    <br>
+                    <p class="paragrafo">Assim, é importante que as famílias estejam preparadas para receber a criança, para que ela se sinta acolhida e amada por todos. </p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">As principais tradições Juninas.
+                    </h3>
+                    <p class="paragrafo">As tradições fazem parte das comemorações. O mês de junho é marcado pelas fogueiras, que servem como
+                        centro para a famosa dança de quadrilhas. Os balões também compõem este cenário, embora cada vez
+                        mais raros em função das leis que proíbem esta prática, em função dos riscos de incêndio que representam.</p>
+                    <br>
+                    <p class="paragrafo">No Nordeste, os bailes de forró ocorrem em diversas cidades, levando diversão e cultura para todos. Contando
+                        também com os casamentos coletivos, que ocorrem sob as bênçãos de santo Antônio.</p>
+                    <br>
+                    <p class="paragrafo">Já na região Sudeste é tradicional a realização de quermesses. Estas festas populares são realizadas
+                        por igrejas, colégios, sindicatos e empresas. Possuem barraquinhas com comidas típicas e jogos para
+                        animar os visitantes. A dança da quadrilha, geralmente ocorre durante toda a quermesse.</p>
+                    <br>
+                    <p class="paragrafo">Como Santo Antônio é considerado o santo casamenteiro, são comuns as simpatias para mulheres solteiras
+                        que querem se casar. Tudo isso revela a Beleza da cultura tradicional e religiosa que cerca o nosso
+                        país e que ocorrem no mês de junho.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="" alt="Link do Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="Link da Rádio">
+                </a>
+            </li>
+        </ul>
+        &copy; UFPA - Universidade Federal do Pará
+    </footer>
+</body>
+
+</html>
