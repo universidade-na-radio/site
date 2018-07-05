@@ -13,7 +13,7 @@
 }
 .data-publicacao {
     position: relative;
-    padding-right: 50px;
+    margin-right: 50px;
     float: right;
     background-color: aliceblue;
     color: rgb(145, 145, 145);

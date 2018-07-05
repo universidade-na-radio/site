@@ -1,0 +1,72 @@
+main{
+    position: relative;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 0;
+    
+}
+.listaDeArtigos{
+    display: table;
+    margin: auto;
+}
+.box{
+    border: 1px solid rgb(179, 175, 175);
+    height: 400px;
+    width: 247px;
+    display: table-cell;
+    float: left;
+    margin-bottom: 30px;
+    background: #F0FFFF    
+}
+
+.artigo2{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.artigo4{
+    margin-right: 35px;
+}
+.artigo5{ 
+    margin-right: 35px;
+}
+.artigo6{ 
+    margin-right: 35px;
+}
+.artigo7{ 
+    margin-right: 35px;
+}
+.titulo{
+    font-family: "Open Sans","Helvetica Neue",sans-serif;
+    font-weight: bolder;
+    margin: 8px 0 8px 0;
+}
+.imgDoArtigo{
+    width: 100%;
+    height: 136px;
+}
+.previaArtigo{
+    font-size: 13px;
+    text-align: justify;
+    margin: 10px 5px 10px 5px;
+    font-family: "Osvald", sans-serif;
+    font-weight: bold;
+    color: rgb(65, 65, 65);  
+}
+.linkPost{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+}
+.dtPub{
+    margin-right: 5px;
+    margin-left:  5px;
+    font-family: "Osvald", sans-serif;
+    color: #818282;
+}
+.artRecentes {
+    font-family: "Osvald", sans-serif;
+    font-size: 2.2rem;
+    margin: 30px auto 30px auto;    
+    color: #818282;
+}
