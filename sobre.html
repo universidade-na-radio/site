@@ -23,20 +23,19 @@
                 <span id="sudescricao-projeto"></span>
             </div>
             <script>
-                var text = 'Tecnologia Educativa à Distância';
-
-                var chars = text.split('');
-                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
-
-                var i = 0;
-                setInterval(function () {
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
                     if (i < chars.length) {
                         sudescricaoprojeto.innerHTML += chars[i++];
                     } else {
                         i = 0;
                         sudescricaoprojeto.innerHTML = "";
                     }
-                }, 100);</script>
+                }, 100);
+            </script>
             <!--Barra de navegação-->
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">

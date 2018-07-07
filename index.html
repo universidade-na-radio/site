@@ -25,20 +25,19 @@
                 <span id="sudescricao-projeto"></span>
             </div>
             <script>
-                var text = 'Tecnologia Educativa à Distância';
-
-                var chars = text.split('');
-                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
-
-                var i = 0;
-                setInterval(function () {
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
                     if (i < chars.length) {
                         sudescricaoprojeto.innerHTML += chars[i++];
                     } else {
                         i = 0;
                         sudescricaoprojeto.innerHTML = "";
                     }
-                }, 100);</script>
+                }, 100);
+            </script>
             <!--Barra de navegação-->
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">
@@ -98,7 +97,6 @@
                 <article>
                     <img class="imgDoArtigo" src="img/copa.svg" alt="Copa do Mundo">
                     <h3 class="titulo">A copa do mundo na rússia</h3>
-
                     <p class="previaArtigo"> &nbsp;&nbsp;&nbsp;
                         <a href="posts/copa.html" class="linkPost">A Copa do Mundo é uma competição internacional organizada pela Federação Internacional de Futebol
                             a cada quatro anos. A Copa passou a ser realizada em 1930, com a primeira competição acontecendo
@@ -124,8 +122,6 @@
                     </p>
                 </article>
             </div>
-
-
 
         </section>
 
