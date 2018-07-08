@@ -40,17 +40,20 @@ span {
 }
 .descricao-projeto {
     font-size: 3.15rem;
-    font-family: oswald;
+    font-family: 'Tajawal', serif;
+    font-weight: bold;
+    color: #142A3B
 }
 #sudescricao-projeto {
-    font-family: Markazi Text;
-    font-size: 2.25rem;
+    font-family: 'Tajawal', serif;
+    color: #142A3B;
+    font-size: 2rem;
     line-height: 40px;
 }
 #sudescricao-projeto::after {
-content: '|';
-margin-left: 5px;
-opacity: 1;
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
 }
 
 @keyframes pisca {
@@ -66,15 +69,16 @@ opacity: 1;
     text-decoration: none;
     line-height: 170px;
     padding: 0 5px 0 5px;
-    font-family: oswald;
+    font-family: 'Tajawal', serif;
     letter-spacing: 0.1rem;
-    color: rgba(65, 65, 65, 0.856)
+    color: #142A3B;
 }
 .lista-menu-pricipal {
     padding: 0;
     display: inline-block;
     margin: 0;
-    
+    border-left: 1px solid #142a3b21;
+    border-right: 1px solid #142a3b21;
 }
 .lista-menu {
     text-align: center;
@@ -88,8 +92,7 @@ opacity: 1;
     cursor: pointer;
 }
 .lista-menu:hover {
-    transition: .4s;
+    transition: .3s;
     text-decoration: underline;
-    color: dimgray;
-    background-color: rgba(161, 161, 161, 0.466);
+    background-color: rgba(20, 42, 59, 0.04);
 }

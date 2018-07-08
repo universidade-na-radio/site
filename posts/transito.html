@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Universidade na Rádio e na Internet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
-    <link rel="stylesheet" href="../style/cabecalho.css">
-    <link rel="stylesheet" href="../style/conteudo-post.css">
-</head>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Universidade na Rádio e na Internet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/main-artigos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+        <link rel="stylesheet" href="../style/cabecalho.css">
+        <link rel="stylesheet" href="../style/conteudo-post.css">
+        <link rel="stylesheet" href="../style/rodape.css">
+    </head>
 
 <body>
     <!--Cabeçalho-->
     <header class="cabecalho">
         <div class="logo-projeto">
+
             <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
             <div class="nome-projeto">
                 <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
                 <br>
-                <span class="sudescricao-projeto">Tecnologia Educativa Aplicaca à Distância</span>
+                <span id="sudescricao-projeto"></span>
             </div>
-        </div>
-        <!--Barra de navegação-->
-        <nav class="menu-navegacao">
-            <ul class="lista-menu-pricipal">
-                <li class="lista-menu">
-                    <a href="#Home">Home</a>
-                </li>
-                <li class="lista-menu">
-                    <a href="#Artigos">Artigos</a>
-                </li>
-                <li class="lista-menu">
-                    <a href="#Sobre">Sobre</a>
-                </li>
-            </ul>
-        </nav>
+            <script>
+                var text = 'Tecnologia Educativa à Distância';
+
+                var chars = text.split('');
+                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+
+                var i = 0;
+                setInterval(function () {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);</script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
     <!--Conteúdo principal de artigos-->
     <main>

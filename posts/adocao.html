@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Universidade na Rádio e na Internet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
-    <link rel="stylesheet" href="style/cabecalho.css">
-    <link rel="stylesheet" href="style/conteudo-principal.css">
-    <link rel="stylesheet" href="style/conteudo-post.css">
-</head>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Universidade na Rádio e na Internet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/main-artigos.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+        <link rel="stylesheet" href="../style/cabecalho.css">
+        <link rel="stylesheet" href="../style/conteudo-post.css">
+        <link rel="stylesheet" href="../style/rodape.css">
+    </head>
 
 <body>
     <!--Cabeçalho-->
     <header class="cabecalho">
         <div class="logo-projeto">
 
-            <img class="logo" src="img/microphone-logo.svg" alt="Logo do Projeto">
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
             <div class="nome-projeto">
                 <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
                 <br>
@@ -43,13 +43,13 @@
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">
                     <li class="lista-menu">
-                        <a href="index.html" class="cabecalhoLink">Home</a>
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
                     </li>
                     <li class="lista-menu">
-                        <a href="artigos.html" class="cabecalhoLink">Artigos</a>
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
                     </li>
                     <li class="lista-menu">
-                        <a href="sobre.html" class="cabecalhoLink">Sobre</a>
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
                     </li>
                 </ul>
             </nav>
@@ -130,21 +130,28 @@
     </main>
 
     <hr>
-    <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link do Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link da Rádio">
-                </a>
-            </li>
-        </ul>
-        &copy; UFPA - Universidade Federal do Pará
-    </footer>
+    <footer class="rodape">
+            <div class="rodape-conteudo">
+                <ul>
+                    <li class="li-rodape-icon">
+                        <a href="#" title="UFPA na Rádio e na Internet">
+                            <img class="rodape-icon facebook" src="img/social/facebook.svg" alt="Link do Facebook">
+                        </a>
+                    </li>
+                    <li class="li-rodape-icon">
+                        <a href="#" title="Rádio Atlântico FM">
+                            <img class="rodape-icon" src="img/social/radio.svg" alt="Link da Rádio">
+                        </a>
+                    </li>
+                    <li class="li-rodape-icon">
+                        <a href="#">
+                            <img class="rodape-icon" src="img/social/soundcloud.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <p>&copy; UFPA - Universidade Federal do Pará</p>
+            </div>
+        </footer>
 </body>
 
 </html>
