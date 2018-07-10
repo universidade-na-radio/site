@@ -1,17 +1,19 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Universidade na Rádio e na Internet</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/main-artigos.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
-        <link rel="stylesheet" href="../style/cabecalho.css">
-        <link rel="stylesheet" href="../style/conteudo-post.css">
-        <link rel="stylesheet" href="../style/rodape.css">
-    </head>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
 
 <body>
     <!--Cabeçalho-->
@@ -25,20 +27,19 @@
                 <span id="sudescricao-projeto"></span>
             </div>
             <script>
-                var text = 'Tecnologia Educativa à Distância';
-
-                var chars = text.split('');
-                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
-
-                var i = 0;
-                setInterval(function () {
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
                     if (i < chars.length) {
                         sudescricaoprojeto.innerHTML += chars[i++];
                     } else {
                         i = 0;
                         sudescricaoprojeto.innerHTML = "";
                     }
-                }, 100);</script>
+                }, 100);
+            </script>
             <!--Barra de navegação-->
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">
@@ -55,119 +56,128 @@
             </nav>
     </header>
     <!--Conteúdo principal de artigos-->
-    <main>
+    <main class="principal">
         <section class="artigo-da-semana">
             <article class="artigo-principal">
                 <header class="cabecalho-artigo-principal">
-                    <h2 class="titulo-artigo-principal">Os Festejos Juninos</h2>
-                    <time class="data-publicacao" datetime="2018-06-25">25-06-2018</time>
+                    <h2 class="titulo-artigo-principal idoso">Dia Mundial de Conscientização da Violência contra a Pessoa Idosa</h2>
+                    <time class="data-publicacao" datetime="2018-06-11">11-06-2018</time>
                 </header>
                 <blockquote>
-                    <h3 class="subtitulo-artigo-principal">A Origem das festas juninas.</h3>
-                    <p class="paragrafo">O mês de Junho é um dos mais queridos pelos brasileiros, graças a todas as cores, sons e sabores que
-                        o acompanham. Tudo isso graças as chamadas “festas juninas”, que prestam homenagem a três santos
-                        católicos: São João, São Pedro e Santo Antônio.</p>
+                    <h3 class="subtitulo-artigo-principal">Junho Violeta</h3>
+                    <p class="paragrafo">O dia 15 de junho marca o Dia Mundial de Conscientização da Violência contra a Pessoa Idosa. A data foi
+                        instituída em 2006 pela ONU - Organização das Nações. No Brasil em 2018 são comemorados os 70 anos
+                        da Declaração Universal dos Direitos Humanos e os 15 anos da aprovação do Estatuto da Pessoa Idosa
+                        (Lei 10.741/2003).</p>
                     <br>
-                    <p class="paragrafo">De acordo com historiadores, esta festividade foi trazida para o Brasil ainda quando ele era colonizado
-                        e governado por Portugal. Nesta época, havia uma grande influência de elementos culturais portugueses,
-                        chineses, espanhóis e franceses. Da França veio a dança marcada, característica típica das danças
-                        nobres e que, no Brasil, influenciou muito as típicas quadrilhas. Já a tradição de soltar fogos de
-                        artifício veio da China, região de onde teria surgido a manipulação da pólvora para a fabricação
-                        de fogos.</p>
+                    <p class="paragrafo">O principal objetivo do dia 15 de junho é criar uma consciência mundial, social e política, da existência
+                        da violência contra a pessoa idosa, além de, ao mesmo tempo, compartilhar a ideia de não aceitá-la
+                        como normal.</p>
                     <br>
-                    <p class="paragrafo">Todos estes elementos culturais foram, com o passar do tempo, misturando-se até se tornar a bela festa
-                        que conhecemos hoje.</p>
+                    <p class="paragrafo">A expressão “Junho Violeta” é uma campanha abraçada pelas secretarias de assistência social e por outras
+                        instituições governamentais. A campanha pretende iniciar discussões sobre a violência sofrida pelas
+                        pessoas idosas e dar visibilidade ao tema, pois, geralmente, quem sofre esse tipo de violência tende
+                        a se calar, e os familiares a ficarem com medo de denunciar, justamente por não conhecerem os amparos
+                        legais.</p>
                 </blockquote>
                 <blockquote>
-                    <h3 class="subtitulo-artigo-principal">As Festas Juninas Nordestinas.</h3>
-                    <p class="paragrafo">Sendo comemoradas em todas as regiões do Brasil. No Nordeste, as festas juninas ganham um contexto totalmente
-                        especial. De acordo com o ministério do turismo, o nordeste é a região onde se concentram o maior
-                        número de festas, principalmente nas cidades de Caruaru (Pernambuco) e de Campina Grande (Paraíba).</p>
+                    <h3 class="subtitulo-artigo-principal">Os idosos no Brasil</h3>
+                    <p class="paragrafo">Atualmente no Brasil temos 26 milhões de pessoas idosas com 60 anos ou mais, o que representa 13% da
+                        população brasileira. Sendo que a maior parte vive na cidade e é composta por mulheres.</p>
                     <br>
-                    <p class="paragrafo">Com apresentações e histórias que falam da seca, dos cangaceiros, de lampião e maria bonita. As festas
-                        representam a expressão máxima da cultura popular nordestina.</p>
+                    <p class="paragrafo">“Frequentemente a pessoa idosa se cala sobre os abusos físicos que sofre e se isola para que outros não
+                        tomem conhecimento desse tipo de violência, prejudicando assim sua saúde mental e a sua qualidade
+                        de vida”, explica Maria Cristina Hoffmann, coordenadora de Saúde da Pessoa Idosa, do Ministério da
+                        Saúde. Ela conta que as estatísticas mostram que, por ano, cerca de 10% dos idosos brasileiros morrem
+                        por homicídio. “A incidência comprovada no mundo inteiro é que de 5% a 10% dos idosos sofrem violência
+                        física visível ou invisível e que pode ou não provocar a morte”, afirma Cristina.</p>
                     <br>
-                    <p class="paragrafo">Além de alegrar o povo da região, essas festas trazem um importante movimento econômico, pois muitos
-                        turistas visitam cidades nordestinas para acompanhar os festejos. Hotéis, comércios e clubes aumentam
-                        os lucros e geram empregos nas cidades. Embora a maioria dos visitantes seja de brasileiros, é cada
-                        vez mais comum encontrarmos turistas europeus, asiáticos e norte-americanos que chegam ao Brasil
-                        para acompanhar de perto as famosas festas nordestinas.</p>
+                    <p class="paragrafo">No 1° semestre de 2016, a ouvidoria do Disque 100 registrou cerca de 12 mil casos de violência contra
+                        idosos em todo o país. Por isso, é importante que estas questões sejam levantadas, para que nossos
+                        idosos possam ter uma vida saudável e feliz.</p>
                     <br>
                 </blockquote>
                 <blockquote>
-                    <h3 class="subtitulo-artigo-principal">As quadrilhas juninas.</h3>
-                    <p class="paragrafo">Sendo o ponto alto das festas de junho, às quadrilhas juninas animam os salões de dança, trazendo cores,
-                        músicas e belas histórias. De acordo com pesquisadores da cultura popular, a quadrilha surgiu na
-                        França em pleno século 18. Lá ocorriam danças coletivas em salões de grandes palácios e contavam
-                        com a participação exclusiva de membros da alta corte.
+                    <h3 class="subtitulo-artigo-principal">As formas de violência ao idoso.</h3>
+                    <p class="paragrafo">No 1° semestre de 2016, a ouvidoria do Disque 100 registrou cerca de 12 mil casos de violência contra
+                        idosos em todo o país. De acordo com o Estatuto do Idoso, no Brasil existem várias categorias de
+                        violência contra à pessoa da terceira idade, sendo que as principais são:
                     </p>
                     <br>
-                    <p class="paragrafo">A partir do início do século 20, as quadrilhas se espalharam pelo Brasil, em cada região ela assumiu
-                        aspectos específicos da cultura popular típica da cidade ou estado. A beleza desta dança está justamente
-                        nestes aspectos populares e culturais que agregam diversos valores a apresentação, como críticas
-                        sociais, histórias de amor e culto religioso.</p>
+                    <p class="paragrafo">Física: Inclui abuso e maus tratos físicos, que constituem a forma de violência mais visível e costumam
+                        acontecer por meio de empurrões, beliscões, tapas ou por outros meios mais letais, como agressões
+                        com cintos, armas brancas (ex. facas, estilete) e armas de fogo.</p>
                     <br>
-                    <p class="paragrafo">Em diversas cidades ocorrem os concursos de quadrilha, onde cada grupo se apresenta com base em um determinado
-                        tema. Sendo levados muito a sério, os chamados “brincantes” começam a ensaiar antes do carnaval para
-                        fazer bonito e levar a maior premiação para casa.</p>
-                    <br>
-                </blockquote>
-                <blockquote>
-                    <h3 class="subtitulo-artigo-principal">São João, São Pedro e Santo Antônio.</h3>
-                    <p class="paragrafo">As manifestações populares em homenagens aos santos Antônio, João e Pedro são a raiz de todas as festas
-                        juninas. Sendo Santo Antônio conhecido como o Santo casamenteiro, ele na verdade é o protetor das
-                        crianças. Por isso é apresentado nas igrejas carregando uma criança. Sempre tratado com muito carinho,
-                        mas recebe estranhos castigos quando os pedidos não são atendidos. Por exemplo: colocam Santo Antônio
-                        de cabeça para baixo dentro de um poço até que a graça seja alcançada.</p>
-                    <br>
-                    <p class="paragrafo">Como diz Luiz Gonzaga na música São João na roça. Entre os três santos, São joão detém o maior número
-                        de devotos, segundo a crença popular, ele é responsável pela colheita de milho e feijão que ocorre
-                        em junho, e mesmo quando não há fartura, o santo é homenageado com muita fé e festa, principalmente
-                        no dia 24.</p>
-                    <br>
-                    <p class="paragrafo"> Já a São Pedro, que é homenageado no dia 29, é atribuído a chegada das chuvas e portão do céu. Sendo
-                        cultuado como protetor das viúvas, por isso são elas que organizam a festa nesse dia, juntamente
-                        com os pescadores, que também fazem a sua homenagem a São Pedro realizando procissões marítimas.</p>
+                    <p class="paragrafo">Negligência/abandono: negligência é a omissão por familiares ou instituições responsáveis pelos cuidados
+                        básicos para o desenvolvimento físico, emocional e social do idoso, tais como privação de medicamentos,
+                        descuido com a higiene e saúde, ausência de proteção contra o frio e o calor. O abandono é uma forma
+                        extrema de negligência.</p>
+                    <p class="paragrafo">Econômico-financeira e patrimonial: consiste no usufruto impróprio ou ilegal dos bens dos idosos, e no
+                        uso não consentido por eles de seus recursos financeiros e patrimoniais.</p>
                     <br>
                 </blockquote>
                 <blockquote>
-                    <h3 class="subtitulo-artigo-principal">As principais tradições Juninas.
+                    <h3 class="subtitulo-artigo-principal">Programa de Educação na Terceira Idade - GETI</h3>
+                    <p class="paragrafo">O Grupo de Educação na Terceira Idade reúne atividades educativas, físicas e culturais, voltadas a mulheres
+                        e homens idosos da comunidade castanhalense, o que, segundo a coordenadora do Programa, Ildete Falcão,
+                        pode trazer inúmeros benefícios.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Durante seus 19 anos de funcionamento, o GETI teve um impacto direto na vida de vários idosos castanhalenses,
+                        repassando conhecimento e proteção, fazendo assim, com que estas pessoas tenham uma melhoria significativa
+                        em sua qualidade de vida.</p>
+                    <br>
+                    <p class="paragrafo">O público alvo do programa são pessoas idosas, com idade igual ou superior a 50 anos, que são atendidas
+                        através de três projetos: Educação Formal, Atualização Cultural e Bem-estar físico. Coordenados pela
+                        Faculdade de Pedagogia com ações realizadas por professores, técnicos, estudantes dos cursos de Pedagogia,
+                        Letras, Educação Física, Sistemas de Informação e Matemática, assim como por professores e técnicos
+                        do município de Castanhal. </p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que fazer quando suspeitar que uma pessoa idosa está sendo vítima de violência?
                     </h3>
-                    <p class="paragrafo">As tradições fazem parte das comemorações. O mês de junho é marcado pelas fogueiras, que servem como
-                        centro para a famosa dança de quadrilhas. Os balões também compõem este cenário, embora cada vez
-                        mais raros em função das leis que proíbem esta prática, em função dos riscos de incêndio que representam.</p>
+                    <p class="paragrafo">Quando possível, deve-se conversar com o idoso e, se confirmada a situação de violência, comunicar o
+                        mais rápido possível ao Conselho Municipal de Defesa dos Direitos da Pessoa Idosa de Castanhal, que
+                        fica localizado na Casa dos Conselhos, rua: Duque de Caxias, próximo ao mercado do bairro da Saudade/COHAB;
+                        número para contato é 3711-1838. Ou se dirigir a uma Delegacia de Polícia e registrar um boletim
+                        de ocorrência. Esses órgãos são os responsáveis por desencadear as medidas protetivas e de responsabilização.
+                        </p>
                     <br>
-                    <p class="paragrafo">No Nordeste, os bailes de forró ocorrem em diversas cidades, levando diversão e cultura para todos. Contando
-                        também com os casamentos coletivos, que ocorrem sob as bênçãos de santo Antônio.</p>
+                    <p class="paragrafo">Nos serviços de saúde será realizada a notificação da violência e acionada a rede de atenção e proteção
+                        para o acompanhamento do caso.</p>
                     <br>
-                    <p class="paragrafo">Já na região Sudeste é tradicional a realização de quermesses. Estas festas populares são realizadas
-                        por igrejas, colégios, sindicatos e empresas. Possuem barraquinhas com comidas típicas e jogos para
-                        animar os visitantes. A dança da quadrilha, geralmente ocorre durante toda a quermesse.</p>
+                    <p class="paragrafo">E se você for uma pessoa idosa que está sendo vítima de violência, procure uma pessoa em que confie,
+                        fale sobre o que está acontecendo e peça ajuda a um profissional de saúde de uma unidade perto de
+                        sua casa, ou busque o Conselho do Idoso, ou uma Delegacia de Polícia.</p>
                     <br>
-                    <p class="paragrafo">Como Santo Antônio é considerado o santo casamenteiro, são comuns as simpatias para mulheres solteiras
-                        que querem se casar. Tudo isso revela a Beleza da cultura tradicional e religiosa que cerca o nosso
-                        país e que ocorrem no mês de junho.</p>
-                    <br>
+
                 </blockquote>
             </article>
         </section>
     </main>
-
     <hr>
-    <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link do Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link da Rádio">
-                </a>
-            </li>
-        </ul>
-        &copy; UFPA - Universidade Federal do Pará
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul>
+                <li class="li-rodape-icon">
+                    <a href="#" title="UFPA na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.svg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#">
+                        <img class="rodape-icon" src="../img/social/soundcloud.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
     </footer>
 </body>
 

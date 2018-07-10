@@ -6,65 +6,60 @@ main{
     padding: 30px 0 30px 0;
 }
 .artigo-da-semana {
+    width: 100%;
     font-family: oswald;
-    letter-spacing: .1rem;
-    height: 450px;
-    background-image: url(../posts/foto-festejo-junino.png);
-    position: relative;
+    height: 550px;
+    background-image: url(../posts/img-posts/suicidio.png);
+    background-size: cover;
     margin-top: 1rem;
 }
 .artigo-principal {
-    position: absolute;
+    margin-top: 3.75em;
     float: left;
     bottom: 20px;
     border: .5em solid azure;
-    margin-left: 1.4rem;
+    margin-left: 3rem;
 }
-.cabecalho-artigo-principal {
-    position: relative;
-}
-.titulo-artigo-principal {
+.titulo-artigo-principalIndex {
     font-size: 4.5rem;
-    width: 600px;
+    bottom: 0;
+    text-align: center;
     margin: auto auto auto 5%;
     color: aliceblue;
 }
-.data-publicacao {
-    position: relative;
+.data-publicacaoIndex {
     padding-right: 0;
+    margin-right: 139px;
     float: right;
     background-color: azure;
     color: rgb(95, 95, 95);
 }
-blockquote {
+.trechoPrincipal {
     margin: 10px auto 10px auto;
 }
-.subtitulo-artigo-principal {
+.subtitulo-artigo-principalIndex {
     font-size: 2.2rem;
     margin: auto auto auto 5%;
-    color: rgb(250, 250, 250);
+    color: #f0f8ff;
 }
 .paragrafo {
     margin: auto auto auto auto;
-    width: 600px;
+    width: 800px;
     font-size: 1.4rem;
     letter-spacing: .04rem;
     color: rgb(95, 95, 95);
     background-color: azure;
     padding: 3px;
+    
 }
 .ler-mais {
     margin: auto auto 1rem 5%;
-    display: block;
     cursor: pointer;
+    letter-spacing: .1rem;
 }
 .ler-mais a {
     line-height: 20px;
-    display: block;
     color: aliceblue;
-}
-.ler-mais a:hover {
-    text-decoration: underline;
 }
 
 .listaDeArtigos{
@@ -73,34 +68,31 @@ blockquote {
 }
 .box{
     border: 1px solid rgb(179, 175, 175);
-    height: 400px;
-    width: 247px;
+    height: 480px;
+    width: 336px;
     display: table-cell;
     float: left;
     margin-bottom: 30px;
-    background: #F0FFFF    
+    background: #F0FFFF; 
+    margin-right: 23px;   
 }
 
-.artigo2{
-    margin-left: 35px;
-    margin-right: 35px;
-}
 
 .titulo{
     font-family: 'Tajawal', serif;
     font-weight: bolder;
     margin: 8px 0 8px 0;
+    letter-spacing: .04rem;
+    padding-left: 2rem; 
 }
 .imgDoArtigo{
     width: 100%;
-    height: 136px;
 }
 .previaArtigo{
-    font-size: 13px;
+    font-family: 'Tajawal', serif;
+    font-size: 1.2rem;
     text-align: justify;
     margin: 10px 5px 10px 5px;
-    font-family: 'Tajawal', serif;
-    font-weight: bold;
     color: rgb(65, 65, 65);  
 }
 .linkPost{
@@ -109,9 +101,9 @@ blockquote {
     color: rgb(65, 65, 65);
 }
 .dtPub{
-    margin-right: 5px;
+    margin: 0 5px 0 5px;
     margin-left:  5px;
-    font-family: "Osvald", sans-serif;
+    font-family: 'Tajawal', serif;
     color: #818282;
 }
 .artRecentes {
@@ -120,3 +112,10 @@ blockquote {
     margin: 30px auto 30px auto;    
     color: #818282;
 }
+/* .previaArtigoIndex{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 0;
+} */

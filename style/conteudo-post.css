@@ -1,15 +1,50 @@
-.artigo-da-semana {
+
+.principal{
+    position: relative;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
+    padding: 30px 0 30px 0;
+    
 }
 .titulo-artigo-principal {
     font-size: 4.5rem;
+    text-align: center;
     margin: 5% auto auto 5%;
     color: aliceblue;
-    background-image: url(../posts/foto-festejo-junino.png)
+}
+.copa{
+    background-image: url(../posts/img-posts/copa.png);
+}
+.junino{
+    background-image: url(../posts/img-posts/foto-festejo-junino.png);
+}
+.idoso{
+    background-image: url(../posts/img-posts/idoso.png);
+}
+.christi{
+    background-image: url(../posts/img-posts/cristi.png);
+}
+.adocao{
+    background-image: url(../posts/img-posts/adocao.png);
+}
+.transito{
+    background-image: url(../posts/img-posts/transito.png);
+}
+.viroses{
+    background-image: url(../posts/img-posts/virose.png);
+}
+.mae{
+    background-image: url(../posts/img-posts/mae.png);
+}
+.suicidio{
+    background-image: url(../posts/img-posts/suicidi.png); 
+}
+.data-publicacao {
+    /* margin-right: 50px; */
+    float: right;
+    background-color: aliceblue;
+    color: rgb(145, 145, 145);
 }
 .subtitulo-artigo-principal {
     font-size: 2.2rem;
@@ -17,18 +52,11 @@
     color: rgb(65, 65, 65);
     font-family: 'Allerta', serif;
 }
-.data-publicacao {
-    position: relative;
-    float: right;
-    color: #142A3B;
-}
-blockquote {
-    margin: 10px 25px 10px 25px;
-}
 .paragrafo {
     color: rgb(65, 65, 65);
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.2rem;
+    text-align: justify;
+    font-family: Markazi Text;
+    font-size: 1.7rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Universidade na Rádio e na Internet</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/main-artigos.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
-        <link rel="stylesheet" href="../style/cabecalho.css">
-        <link rel="stylesheet" href="../style/conteudo-post.css">
-        <link rel="stylesheet" href="../style/rodape.css">
-    </head>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
 
 <body>
     <!--Cabeçalho-->
@@ -25,20 +27,21 @@
                 <span id="sudescricao-projeto"></span>
             </div>
             <script>
-                var text = 'Tecnologia Educativa à Distância';
 
-                var chars = text.split('');
-                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
-
-                var i = 0;
-                setInterval(function () {
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
                     if (i < chars.length) {
                         sudescricaoprojeto.innerHTML += chars[i++];
                     } else {
                         i = 0;
                         sudescricaoprojeto.innerHTML = "";
                     }
-                }, 100);</script>
+
+                }, 100);
+            </script>
             <!--Barra de navegação-->
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">
@@ -55,68 +58,97 @@
             </nav>
     </header>
     <!--Conteúdo principal de artigos-->
-    <main>
+    <main class="principal">
         <section class="artigo-da-semana">
             <article class="artigo-principal">
                 <header class="cabecalho-artigo-principal">
-                    <h2 class="titulo-artigo-principal">Viroses, gripes e resfriados</h2>
+                    <h2 class="titulo-artigo-principal viroses">Viroses, gripes e resfriados</h2>
                     <time class="data-publicacao" datetime="2018-05-14">14-05-2018</time>
                 </header>
                 <blockquote>
-                    <h3 class="subtitulo-artigo-principal">Os surtos de virose tem se tornado cada vez mais comuns entre a população e diversos fatores podem vir a ser a causa deste problema, como o clima, a forma de manuseio dos alimentos e até mesmo o espaço de convivência com outros pessoas. Assim, é bom estar sempre atento.</p>
+                    <h3 class="subtitulo-artigo-principal">Os surtos de virose</h3>
+                    <p class="paragrafo">Os surtos de virose tem se tornado cada vez mais comuns entre a população e diversos fatores podem vir
+                        a ser a causa deste problema, como o clima, a forma de manuseio dos alimentos e até mesmo o espaço
+                        de convivência com outros pessoas. Assim, é bom estar sempre atento.</p>
                     <br>
-                    <p class="paragrafo">Mas você sabe o que é virose? Virose é um termo amplo, utilizado para definir doenças e infecções causadas por vírus. Assim como o sarampo, a dengue e a catapora.
-                        </p>
+                    <p class="paragrafo">Mas você sabe o que é virose? Virose é um termo amplo, utilizado para definir doenças e infecções causadas
+                        por vírus. Assim como o sarampo, a dengue e a catapora.
+                    </p>
                     <br>
-                    <p class="paragrafo">Mas as doenças consideradas viroses, são aquelas sem complicação e que tem um período de duração limitado, por esse motivo, grande parte não apresenta um tratamento específico, sendo recomendado principalmente ficar em repouso, tomar bastante líquido e ter uma alimentação saudável.
-                        </p>
+                    <p class="paragrafo">Mas as doenças consideradas viroses, são aquelas sem complicação e que tem um período de duração limitado,
+                        por esse motivo, grande parte não apresenta um tratamento específico, sendo recomendado principalmente
+                        ficar em repouso, tomar bastante líquido e ter uma alimentação saudável.
+                    </p>
                 </blockquote>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">De que maneira podemos adquirir a virose?</h3>
-                    <p class="paragrafo">As viroses têm diversas formas de se manifestar, isto porque cada tipo de virose é causada por um vírus diferente, mas existem três formas de manifestação que são as mais comuns: as viroses causadoras de doenças na pele, as viroses causadoras de problemas no estômago e as viroses que afetam a nossa respiração. 
-                        </p>
+                    <p class="paragrafo">As viroses têm diversas formas de se manifestar, isto porque cada tipo de virose é causada por um vírus
+                        diferente, mas existem três formas de manifestação que são as mais comuns: as viroses causadoras
+                        de doenças na pele, as viroses causadoras de problemas no estômago e as viroses que afetam a nossa
+                        respiração.
+                    </p>
                     <br>
-                    <p class="paragrafo">Os vírus que causam problemas na pele são mais comuns na infância, mas podem afetar  a população no geral, causando coceira, bolhas e marcas que demoram a sumir. Como exemplo, podemos citar a catapora, a rubéola e o sarampo.</p>
+                    <p class="paragrafo">Os vírus que causam problemas na pele são mais comuns na infância, mas podem afetar a população no geral,
+                        causando coceira, bolhas e marcas que demoram a sumir. Como exemplo, podemos citar a catapora, a
+                        rubéola e o sarampo.</p>
                     <br>
-                    <p class="paragrafo">As viroses que causam problemas estomacais pode ser causada por diversos tipos de vírus, sua infecção afeta principalmente o pulmão e o intestino, dessa forma, causando quadros com vômito, diarreia e enjoos.
-                            As viroses respiratórias geralmente pelo vírus conhecido por Adenovírus, sua infecção afeta todo o sistema respiratório, atingindo a principalmente a boca, o nariz e o pulmão. 
-                            </p>
+                    <p class="paragrafo">As viroses que causam problemas estomacais pode ser causada por diversos tipos de vírus, sua infecção
+                        afeta principalmente o pulmão e o intestino, dessa forma, causando quadros com vômito, diarreia e
+                        enjoos. As viroses respiratórias geralmente pelo vírus conhecido por Adenovírus, sua infecção afeta
+                        todo o sistema respiratório, atingindo a principalmente a boca, o nariz e o pulmão.
+                    </p>
                     <br>
                 </blockquote>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">A gripe e o resfriado.</h3>
-                    <p class="paragrafo">A gripe e o resfriado não estão diretamente relacionados ao frio, mas sim a grande quantidade de pessoas em ambientes fechados, principalmente em situações de chuva intensa, o que é muito comum na nossa região.
-                            Assim, a chuva não causa a gripe ou o resfriado, mas cria condições para a transmissão dos vírus em lugares não ventilados, onde as pessoas tossem, espirram ou falam muito perto uma das outras.
-                            
+                    <p class="paragrafo">A gripe e o resfriado não estão diretamente relacionados ao frio, mas sim a grande quantidade de pessoas
+                        em ambientes fechados, principalmente em situações de chuva intensa, o que é muito comum na nossa
+                        região. Assim, a chuva não causa a gripe ou o resfriado, mas cria condições para a transmissão dos
+                        vírus em lugares não ventilados, onde as pessoas tossem, espirram ou falam muito perto uma das outras.
+
                     </p>
                     <br>
-                    <p class="paragrafo">A gripe é causada pelo vírus influenza, muitas vezes confundida com o resfriado, cujo principal causador é o rinovírus. A principal diferença entre os dois, é que o vírus da gripe traz sintomas mais severos que o vírus do resfriado.
-                        </p>
+                    <p class="paragrafo">A gripe é causada pelo vírus influenza, muitas vezes confundida com o resfriado, cujo principal causador
+                        é o rinovírus. A principal diferença entre os dois, é que o vírus da gripe traz sintomas mais severos
+                        que o vírus do resfriado.
+                    </p>
                     <br>
-                    <p class="paragrafo">Entre seus principais sintomas temos, febre alta, narinas congestionadas, dores de cabeça e dores musculares, que costumam se manifestar por períodos de uma semana a quinze dias. 
-                            Assim, é muito importante manter a tabela da vacinação em dia, principalmente para os grupos de risco, como crianças de colo, mulheres grávidas e idosos.
-                            </p>
+                    <p class="paragrafo">Entre seus principais sintomas temos, febre alta, narinas congestionadas, dores de cabeça e dores musculares,
+                        que costumam se manifestar por períodos de uma semana a quinze dias. Assim, é muito importante manter
+                        a tabela da vacinação em dia, principalmente para os grupos de risco, como crianças de colo, mulheres
+                        grávidas e idosos.
+                    </p>
                     <br>
                 </blockquote>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">Formas de prevenção da virose:</h3>
-                    <p class="paragrafo">Hábitos simples podem ajudar a evitar a transmissão das viroses. É recomendado lavar as mães sempre antes de comer, depois de ir ao banheiro e sempre que espirrar ou tossir, pois assim o risco de transmitir o vírus pelas mãos é bem menor. As mãos são a principal forma de transmissão de vírus que estiveram espalhados por superfícies como mesas, cadeiras, canetas, telefones ou telefones, por exemplo.</p>
+                    <p class="paragrafo">Hábitos simples podem ajudar a evitar a transmissão das viroses. É recomendado lavar as mães sempre antes
+                        de comer, depois de ir ao banheiro e sempre que espirrar ou tossir, pois assim o risco de transmitir
+                        o vírus pelas mãos é bem menor. As mãos são a principal forma de transmissão de vírus que estiveram
+                        espalhados por superfícies como mesas, cadeiras, canetas, telefones ou telefones, por exemplo.</p>
                     <br>
-                    <p class="paragrafo">No caso de pessoas que já estão contaminadas, é importante o uso de  lenços ao tossir e espirrar para que o vírus não seja espalhado pelo ar, além de não compartilhar utensílios domésticos pois estes também estão contaminados.
-                        </p>
+                    <p class="paragrafo">No caso de pessoas que já estão contaminadas, é importante o uso de lenços ao tossir e espirrar para
+                        que o vírus não seja espalhado pelo ar, além de não compartilhar utensílios domésticos pois estes
+                        também estão contaminados.
+                    </p>
                     <br>
-                    <p class="paragrafo"> Melhorar a saúde do corpo também é importante, levando uma vida equilibrada, dormindo e se alimentando bem, além das atividades físicas, ajudam a manter a imunidade alta e a prevenir diversas doenças.</p>
+                    <p class="paragrafo"> Melhorar a saúde do corpo também é importante, levando uma vida equilibrada, dormindo e se alimentando
+                        bem, além das atividades físicas, ajudam a manter a imunidade alta e a prevenir diversas doenças.</p>
                     <br>
                 </blockquote>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">A importância da vacinação
                     </h3>
-                    <p class="paragrafo">As vacinas são mecanismos muito eficazes na defesa do organismo contra doenças causadoras de infecções, elas protegem não só você, mas também toda a sua família e amigos, pelo seu poder de ajudar na diminuição da circulação de doenças.
-                            O ministério da saúde iniciou recentemente a campanha nacional de vacinação contra o influenza, que é o vírus transmissor da gripe
-                            A vacina é gratuita para crianças de 6 meses a 5 anos, pessoas com mais de 60 anos, gestantes, profissionais da saúde, professores da rede pública e particular, entre outros.
-                            A vacina da gripe tem que ser tomada anualmente, pois o vírus possui uma alta capacidade de mutação. Assim, o vírus que está circulando agora é diferente do que estava sendo transmitido no ano passado. 
-                            A campanha de vacinação vai até o dia primeiro de junho, fique atento, avise amigos e vizinhos, é muito importante a participação de todos nessa luta.
-                            </p>
+                    <p class="paragrafo">As vacinas são mecanismos muito eficazes na defesa do organismo contra doenças causadoras de infecções,
+                        elas protegem não só você, mas também toda a sua família e amigos, pelo seu poder de ajudar na diminuição
+                        da circulação de doenças. O ministério da saúde iniciou recentemente a campanha nacional de vacinação
+                        contra o influenza, que é o vírus transmissor da gripe A vacina é gratuita para crianças de 6 meses
+                        a 5 anos, pessoas com mais de 60 anos, gestantes, profissionais da saúde, professores da rede pública
+                        e particular, entre outros. A vacina da gripe tem que ser tomada anualmente, pois o vírus possui
+                        uma alta capacidade de mutação. Assim, o vírus que está circulando agora é diferente do que estava
+                        sendo transmitido no ano passado. A campanha de vacinação vai até o dia primeiro de junho, fique
+                        atento, avise amigos e vizinhos, é muito importante a participação de todos nessa luta.
+                    </p>
                     <br>
                 </blockquote>
             </article>
@@ -124,20 +156,27 @@
     </main>
 
     <hr>
-    <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link do Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link da Rádio">
-                </a>
-            </li>
-        </ul>
-        &copy; UFPA - Universidade Federal do Pará
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul>
+                <li class="li-rodape-icon">
+                    <a href="#" title="UFPA na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.svg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#">
+                        <img class="rodape-icon" src="../img/social/soundcloud.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
     </footer>
 </body>
 

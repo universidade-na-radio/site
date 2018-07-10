@@ -41,12 +41,9 @@ span {
 .descricao-projeto {
     font-size: 3.15rem;
     font-family: 'Tajawal', serif;
-    font-weight: bold;
-    color: #142A3B
 }
 #sudescricao-projeto {
     font-family: 'Tajawal', serif;
-    color: #142A3B;
     font-size: 2rem;
     line-height: 40px;
 }
