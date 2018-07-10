@@ -23,7 +23,7 @@ main{
 }
 
 .titulo{
-    font-family: oswald;
+    font-family: 'Tajawal', serif;
     font-weight: bolder;
     margin: 8px 0 8px 0;
     letter-spacing: .04rem;
@@ -34,8 +34,8 @@ main{
 }
 .previaArtigo{
 
-    font-family: "Markazi Text";
-    font-size: 1.4rem;
+    font-family: 'Tajawal', serif;
+    font-size: 1.2rem;
     text-align: justify;
     margin: 10px 5px 10px 5px;
     color: rgb(65, 65, 65);  
@@ -47,7 +47,7 @@ main{
 }
 .dtPub{
     margin: 0 5px 0 5px;
-    font-family: "Osvald", sans-serif;
+    font-family: 'Tajawal', serif;
     color: #818282;
 }
 .artRecentes {

@@ -1,0 +1,17 @@
+.rodape {
+    display: block;
+    background-color: rgb(217, 224, 255);
+    padding: 1.5rem;
+}
+.rodape-conteudo {
+    display: inline;
+    text-align: center;
+}
+.li-rodape-icon {
+    list-style-type: none;
+    display: inline-block;
+}
+.rodape-icon {
+    width: 1.7rem;
+    margin: auto;
+}

@@ -7,9 +7,10 @@
     <title>Universidade na Rádio e na Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/main-artigos.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
     <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
     <link rel="stylesheet" href="../style/conteudo-post.css">
 </head>
 
@@ -25,20 +26,19 @@
                 <span id="sudescricao-projeto"></span>
             </div>
             <script>
-                var text = 'Tecnologia Educativa à Distância';
-
-                var chars = text.split('');
-                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
-
-                var i = 0;
-                setInterval(function () {
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
                     if (i < chars.length) {
                         sudescricaoprojeto.innerHTML += chars[i++];
                     } else {
                         i = 0;
                         sudescricaoprojeto.innerHTML = "";
                     }
-                }, 100);</script>
+                }, 100);
+            </script>
             <!--Barra de navegação-->
             <nav class="menu-navegacao">
                 <ul class="lista-menu-pricipal">
@@ -64,18 +64,18 @@
                 </header>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">Os surtos de virose</h3>
-                        <p class="paragrafo">Os surtos de virose tem se tornado cada vez mais comuns entre a população e diversos fatores podem
-                            vir a ser a causa deste problema, como o clima, a forma de manuseio dos alimentos e até mesmo
-                            o espaço de convivência com outros pessoas. Assim, é bom estar sempre atento.</p>
-                        <br>
-                        <p class="paragrafo">Mas você sabe o que é virose? Virose é um termo amplo, utilizado para definir doenças e infecções
-                            causadas por vírus. Assim como o sarampo, a dengue e a catapora.
-                        </p>
-                        <br>
-                        <p class="paragrafo">Mas as doenças consideradas viroses, são aquelas sem complicação e que tem um período de duração
-                            limitado, por esse motivo, grande parte não apresenta um tratamento específico, sendo recomendado
-                            principalmente ficar em repouso, tomar bastante líquido e ter uma alimentação saudável.
-                        </p>
+                    <p class="paragrafo">Os surtos de virose tem se tornado cada vez mais comuns entre a população e diversos fatores podem vir
+                        a ser a causa deste problema, como o clima, a forma de manuseio dos alimentos e até mesmo o espaço
+                        de convivência com outros pessoas. Assim, é bom estar sempre atento.</p>
+                    <br>
+                    <p class="paragrafo">Mas você sabe o que é virose? Virose é um termo amplo, utilizado para definir doenças e infecções causadas
+                        por vírus. Assim como o sarampo, a dengue e a catapora.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Mas as doenças consideradas viroses, são aquelas sem complicação e que tem um período de duração limitado,
+                        por esse motivo, grande parte não apresenta um tratamento específico, sendo recomendado principalmente
+                        ficar em repouso, tomar bastante líquido e ter uma alimentação saudável.
+                    </p>
                 </blockquote>
                 <blockquote>
                     <h3 class="subtitulo-artigo-principal">De que maneira podemos adquirir a virose?</h3>
@@ -153,20 +153,27 @@
     </main>
 
     <hr>
-    <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link do Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="" alt="Link da Rádio">
-                </a>
-            </li>
-        </ul>
-        &copy; UFPA - Universidade Federal do Pará
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul>
+                <li class="li-rodape-icon">
+                    <a href="#" title="UFPA na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.svg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#">
+                        <img class="rodape-icon" src="../img/social/soundcloud.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
     </footer>
 </body>
 
