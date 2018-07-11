@@ -1,2 +1,2 @@
 # site
-Site do projeto Universidade na Rádio e na Internet
+Projeto Universidade na Rádio e na Internet: tecnologia educativa à distância.
