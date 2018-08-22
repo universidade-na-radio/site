@@ -40,6 +40,9 @@
 .suicidio{
     background-image: url(../posts/img-posts/suicidi.png); 
 }
+.eletrica{
+    background-image: url(../posts/img-posts/electricity.png); 
+}
 .data-publicacao {
     /* margin-right: 50px; */
     float: right;
