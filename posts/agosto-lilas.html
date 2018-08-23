@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal mae">Agosto Lilás</h2>
+                    <time class="data-publicacao" datetime="2018-05-07">13-08-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que é o Agosto Lilás?</h3>
+                    <p class="paragrafo">Recentemente temos acompanhado diversos casos de violência e de maus tratos a vida de mulheres em diversas partes do Brasil. O agosto lilás é uma campanha que surgiu como uma reação a essa onda de violência pela qual muitas mulheres estão passando.</p>
+                    <br>
+                    <p class="paragrafo">A campanha se estenderá por todo este mês, ocupando as redes sociais e diversos outros meios de comunicação e contando com o envolvimento de diversas autoridades e da sociedade no geral, trabalhando para erradicar esse mal.</p>
+                    <br>
+                    <p class="paragrafo">
+                    Quando a agressão ocorre, não existe um perfil de vítima. A violência contra a mulher está presente em todas as classes sociais, independente de nível cultural, econômico, racial ou financeiro. E além de serem violentadas, na maioria das vezes, as vítimas continuam em uma relação abusiva com o agressor, não por dependerem economicamente deles, mas sim por serem bastante dependentes no sentido sentimental.
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Tipos de violência contra a mulher</h3>
+                    <p class="paragrafo">A Lei Maria da Penha classifica os tipos de abuso contra a mulher nas seguintes categorias: violência patrimonial, violência sexual, violência física, violência moral e violência psicológica.
+                    <br>
+                    Conheça algumas formas de agressões que são consideradas violência doméstica no Brasil:
+                    </p>
+                    <br>
+                    <p class="paragrafo">Diminuir a autoestima: Agressões como humilhação, desvalorização ou deboche público em relação a mulher constam como tipos de violência emocional.
+              
+                    </p>
+                    <br>
+                    <p class="paragrafo">Tirar a liberdade de crença: Um homem não pode impedir a ação, a decisão ou a crença de uma mulher. Isso também é considerado como uma forma de violência psicológica.
+                    <br>
+                    Fazer a mulher achar que está ficando louca: Um homem não pode distorcer os fatos e omitir situações para deixar a vítima em dúvida sobre a sua memória e sanidade.
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Tipos de violência contra a mulher II</h3>
+                    <p class="paragrafo">Hoje continuaremos falando sobre os tipos de violência a mulher, é importante que se tome conhecimento dos diversos tipos de agressão, para que as mulheres possam entendê-los e assim possam se proteger.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Expor a vida íntima: Falar sobre a vida do casal para outros é considerado uma forma de violência moral, como por exemplo vazar fotos íntimas nas redes sociais como forma de vingança.
+                            </p>
+                    <br>
+                    <p class="paragrafo">Atirar objetos, sacudir e apertar os braços: Nem toda violência física é o espancamento. São considerados também como abuso físico a tentativa de arremessar objetos, com a intenção de machucar, sacudir e segurar com força uma mulher.
+                            
+                    <br>
+                    Controlar o dinheiro ou reter documentos: Se o homem tenta controlar, guardar ou retirar o dinheiro de uma mulher contra a sua vontade, assim como guardar documentos pessoais da mulher, isso é considerado uma forma de violência patrimonial.
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Lei Maria da Penha</h3>
+                    <p class="paragrafo">No ano de 2006, uma farmacêutica inspirou a criação da lei que criou medidas de proteção para todas as mulheres vítimas de violência. Antes da Lei Maria da Penha, o homem que agredia a mulher era considerado um covarde. Depois da Lei Maria da Penha, ele é considerado um criminoso.
+                    </p>
+                    <br>
+                    <p class="paragrafo">A lei teve um impacto muito positivo no combate a violência, pois ela encoraja as vítimas a denunciar os agressores. Com isso, os crimes que antigamente ficavam silenciados, passaram a ser levados a delegacias especializadas no acolhimento à mulher.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Mas ainda não é o suficiente. Ainda hoje no brasil, a taxa de morte de mulheres, ainda é a quinta maior do mundo. Para que essa realidade mude, devemos nos impor. As mulheres merecem viver com amor, carinho e paz. 
+                    <br>
+                    Por isso, ao presenciar qualquer ato de violência contra uma mulher, denuncie, você pode estar salvando uma vida.
+                    </p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Central de atendimento à mulher.
+                    </h3>
+                    <p class="paragrafo">A Central de Atendimento à Mulher em Situação de Violência - Ligue 180 – é um serviço de utilidade pública gratuito e confidencial, que funciona desde 2005.
+                    </p>
+                    <br>
+                    <p class="paragrafo">O Ligue 180 tem como objetivo receber denúncias de violência, reclamações sobre os serviços de atendimento à mulher e de orientar as mulheres sobre seus direitos.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Tendo também a função de mapear as denúncias de todos os estados brasileiros, a central de atendimento à mulher nos ajuda a entender melhor como andam as taxas de violência contra a mulher no nosso país. Alguns estados brasileiros nem se quer tem essas taxas registradas ou tem dados incompletos.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Por isso é importante que em caso de qualquer tipo de violência, a denúncia seja feita. A Central funciona 24 horas, todos os dias da semana, inclusive finais de semana e feriados, e pode ser acionada de qualquer lugar do Brasil e de mais 16 países. </p>
+                    
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul>
+                <li class="li-rodape-icon">
+                    <a href="#" title="UFPA na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.svg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#">
+                        <img class="rodape-icon" src="../img/social/soundcloud.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

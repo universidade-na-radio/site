@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal mae">Agosto Dourado</h2>
+                    <time class="data-publicacao" datetime="2018-05-07">06-08-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que é o Agosto Dourado?</h3>
+                    <p class="paragrafo">Dentre tantas cores especiais que encontramos no calendário, o Agosto Dourado tem um significado todo especial.  Representando a semana de conscientização da importância da amamentação.</p>
+                    <br>
+                    <p class="paragrafo">Ocorrendo do dia 1º ao dia 7 de agosto, a Semana Mundial da amamentação é comemorada desde 1992, por mais de 120 países. As datas foram definidas pela OMS (Organização Mundial da Saúde) e pelo Unicef (fundo das Nações Unidas para a Infância).</p>
+                    <br>
+                    <p class="paragrafo">
+                    A cor dourada foi escolhida para representar a data pois de acordo com a OMS, o leite materno é o Alimento de Ouro para a saúde dos bebês. E graças a lei criada pelo Congresso Nacional, em 2017, não só a primeira semana do mês de agosto representa a importância do aleitamento materno, mas sim o mês todo.
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A importância do aleitamento materno</h3>
+                    <p class="paragrafo">Através da amamentação, o bebê recebe todos os nutrientes, proteínas, açúcar, gordura e vitaminas que o pequeno necessita por 6 meses para crescer e se desenvolver com saúde. 
+                    </p>
+                    <br>
+                    <p class="paragrafo">Um dos maiores benefícios que o leite materno oferece são os anticorpos, que fortalecem muito o sistema imunológico. Deste modo, diminuem as possibilidades de que o bebê possa contrair algum tipo de infecção no ouvido, respiratória, urinária até mesmo diarreia.
+                    </p>
+                    <br>
+                    <p class="paragrafo">
+                    A dúvida que persegue muitas mamães é se o leite delas é fraco. É importante saber que não existe leite fraco, e que cada mãe produz o leite ideal para o seu bebê.
+                    <br>
+                    Depois de seis meses de vida, outros alimentos já podem ser oferecidos à criança, mas a mãe pode amamentar o seu filho pelo menos até ele completar dois anos de idade. Mas isto depende muito da situação de cada mamãe e bebê. O seu pediatra lhe dirá a duração que beneficiará a ambos.         
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Amamenta Castanhal</h3>
+                    <p class="paragrafo">Diversas cidades vem se mobilizando, com o intuito de conscientizar as mamães e futuras mamães sobre as vantagens da amamentação. E Castanhal não ficou de fora. 
+                    </p>
+                    <br>
+                    <p class="paragrafo">No dia 10 de agosto, a partir das 17:30, ocorrerá na Praça do Cristo o segundo Amamenta Castanhal, o evento será em formato de piquenique e contará com a participação de diversos artistas locais, assim como empresas e é claro, as mamães e seus bebês. </p>
+                    <br>
+                    <p class="paragrafo">
+                    É muito importante que eventos como esses venham a acontecer na cidade, pois eles acabam funcionando como uma forma de apoio às mamães e acaba sendo um momento de compartilhamento de histórias e experiências.
+                    <br>
+                    O evento é uma iniciativa do ISTHAR Castanhal, com o apoio de diversos parceiros!
+                    <br>
+                    Não esqueça, Amamenta Castanhal, dia 10 de agosto, a partir das 17:30.
+                    </p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Cuidados durante a amamentação</h3>
+                    <p class="paragrafo">Após o nascimento do bebê, é comum as mães acabarem se dedicando tanto aos cuidados com o pequeno que esquecem de cuidar de si mesmas. Contudo, é essencial que elas também prestem atenção à sua saúde e bem-estar. Além disso, uma mãe saudável tem mais disposição para cuidar do bebê.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Amamentar gasta muitas calorias, por isso é importante que a mãe se alimente bem e de maneira saudável. É orientado que a mulher que amamenta ingira cerca de 2500 calorias por dia. É importante que ela invista no consumo de proteínas, especialmente carnes magras, como filé de frango e peixes, ovos e leguminosas como o feijão e a soja também são ótimas opções.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Não fume e evite bebidas alcoólicas! Tanto as substâncias presentes no cigarro quanto aquelas que estão nas bebidas alcoólicas passam para o leite materno e podem afetar a saúde do bebê.  Alguns estudos apontam que as bebidas alcoólicas na gravidez levam a diminuição da produção do leite materno.
+                    </p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Amamentar é amor.
+                    </h3>
+                    <p class="paragrafo">Reforçando a campanha do Agosto Dourado, aqui vão algumas vantagens da amamentação:
+                    </p>
+                    <br>
+                    <p class="paragrafo">A criança amamentada ao seio estará protegida contra alergia e infecções, fortalecendo-se com os anticorpos da mãe e evitando problemas como diarréias, pneumonias, otites e meningites.
+                    </p>
+                    <br>
+                    <p class="paragrafo">A amamentação é mais prática, mais econômica, e evita o risco de contaminação no preparo de outros tipos de leite.
+                    </p>
+                    <br>
+                    <p class="paragrafo">A amamentação favorece o desenvolvimento dos ossos e fortalece os músculos da face, facilitando o desenvolvimento da fala, regulando a respiração e prevenindo problemas nos futuros dentes do bebê.</p>
+                    <br>
+                    <p class="paragrafo">A mãe que amamenta volta mais rapidamente ao seu peso normal. Reduzindo os riscos de diabetes e infarto cardíaco.</p>
+                    <br>
+                    <p class="paragrafo">A amamentação ajuda a reduzir a hemorragia após o parto e previne o câncer de mama e de ovário.</p>
+                    <br>
+                    <p class="paragrafo">O aleitamento materno cria um vínculo entre a mãe e o bebê, proporcionando maior união entre eles. As crianças amamentadas são mais tranqüilas, inteligentes e mais felizes.</p>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul>
+                <li class="li-rodape-icon">
+                    <a href="#" title="UFPA na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.svg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="#">
+                        <img class="rodape-icon" src="../img/social/soundcloud.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>
