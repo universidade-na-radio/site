@@ -1,7 +1,8 @@
 .rodape {
     display: block;
     background-color: rgb(217, 224, 255);
-    padding: 1.5rem;
+    padding: 3.5rem;
+    border-top: 0.5px solid rgba(66, 66, 66, 0.548);
 }
 .rodape-conteudo {
     display: inline;
