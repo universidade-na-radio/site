@@ -6,7 +6,6 @@
     padding: 30px 0 30px 0;
     
 }
-
 .titulo-artigo-principal {
     font-size: 4.5rem;
     text-align: center;
@@ -17,7 +16,7 @@
     background-image: url(../posts/img-posts/copa.png);
 }
 .junino{
-    background-image: url(../posts/img-posts/foto-festejo-junino.png);
+    background-image: url(../posts/img-posts/festejo-junino.png);
 }
 .idoso{
     background-image: url(../posts/img-posts/idoso.png);
