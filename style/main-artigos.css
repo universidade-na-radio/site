@@ -19,7 +19,10 @@ main{
     float: left;
     margin-bottom: 30px;
     background: #F0FFFF ;
-    margin-right: 23px;     
+   /*  margin-right: 23px;  */    
+}
+.box-meio {
+    margin: 0px 11px 0 11px;
 }
 
 .titulo{

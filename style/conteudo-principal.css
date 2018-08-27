@@ -74,10 +74,11 @@ main{
     display: table-cell;
     float: left;
     margin-bottom: 30px;
-    background: #F0FFFF; 
-    margin-right: 23px;   
+    background: #F0FFFF;   
 }
-
+.box-meio {
+    margin: 0px 11px 0 11px;
+}
 
 .titulo{
     font-family: 'Tajawal', serif;
