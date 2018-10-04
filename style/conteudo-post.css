@@ -42,6 +42,19 @@
 .eletrica{
     background-image: url(../posts/img-posts/electricity.png); 
 }
+
+.fakenews{
+    background-image: url(); 
+}
+.setembro-vermelho{
+    background-image: url(); 
+}
+.pessoas-deficiencia{
+    background-image: url(); 
+}
+.eleicao{
+    background-image: url(../img/eleicoes-2018.png); 
+}
 .data-publicacao {
     /* margin-right: 50px; */
     float: right;
