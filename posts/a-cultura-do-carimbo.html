@@ -1,0 +1,152 @@
+z<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                var text = 'Tecnologia Educativa à Distância';
+
+                var chars = text.split('');
+                var sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+
+                var i = 0;
+                setInterval(function () {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);</script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal cultura-carimbo">A Cultura do Carimbó</h2>
+                    <time class="data-publicacao" datetime="2018-08-27">27-08-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O Dia Municipal do Carimbó</h3>
+                    <p class="paragrafo">Ontem no dia 26, foi celebrado o dia municipal do carimbó, em Belém, sendo está a data de nascimento do Mestre Verequete, que é conhecido como o rei do Carimbó, que se estivesse vivo, completaria 102 anos de idade.</p>
+                    <br>
+                    <p class="paragrafo">Carimbó é essa dança de roda que a maioria de nós conhecemos e adoramos. Tendo uma influência muito forte na região norte do país, a dança chegou ao patamar de Patrimônio Cultural Imaterial do Brasil em 2014.</p>
+                    <br>
+                    <p class="paragrafo">Tendo uma forte herança indígena, mais precisamente vindo do tupi korimbó, seu significado é “pau que produz som". O nome faz referência ao curimbó, o principal instrumento musical utilizado nos batuques, que na época era feito com um tronco escavado de forma manual.</p>
+                    <br>
+                    <p class="paragrafo">Com o passar dos anos, tanto a dança, quanto as músicas foram tomando forma assim, juntas, conseguem contar um pouco das histórias da cultura do nosso estado.</p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">As Influências do Carimbó</h3>
+                    <p class="paragrafo">Segundo registros, o carimbó surgiu em Marapanim, situada a cento e cinquenta quilômetros de Belém, como uma forma de lazer e com o intuito de dar leveza às difíceis tarefas cotidianas do caboclo.</p>
+                    <br>
+                    <p class="paragrafo">É considerado um estilo musical de origem indígena, porém, como diversas outras manifestações culturais no Brasil, ele acabou recebendo influências de outros povos, principalmente dos portugueses e dos escravos.</p>
+                    <br>
+                    <p class="paragrafo">Existindo basicamente três tipos de carimbó.</p>
+                    <br>
+                    <p class="paragrafo">O carimbó praieiro, típico da região do salgado, na qual se destaca Marapanim. O carimbó pastoril, típico das regiões de campo como Soure e Marajó. E o carimbó rural ou agrícola, mais praticado no baixo Amazonas.</p>
+                    <br>
+                    <p class="paragrafo">Em cada região o ritmo conta histórias e lendas que ajudam a levar alegria e reflexão para a população local, assim ajudando a manter a cultura e a diversidade musical de cada região.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Verequete, o Rei do Carimbó.</h3>
+                    <p class="paragrafo">Augusto Gomes Rodrigues, o Mestre Verequete, nasceu em 1926, num local próximo à Vila de Quatipuru, em Bragança.</p>
+                    <br>
+                    <p class="paragrafo">Em 1940, foi para Belém morar em Icoaraci. Arranjou emprego na Base Aérea, onde ganhou o apelido de “Verequete”. Em uma entrevista ele conta: “Uma moça que eu gostava me levou num batuque. Umas certas horas da madrugada, o Pai de Santo cantou ‘Chama Verequete’. Cheguei no trabalho contando aos colegas o fato. Quando acabei de contar, me chamaram de Verequete. E assim ficou”. Disso, saiu a composição que se tornou uma das mais populares da carreira do mestre… “Chama Verequete”.</p>
+                    <br>
+                    <p class="paragrafo">O Rei do Carimbó teve sua história contada no filme 'Chama Verequete', em 2001. E em Brasília, Verequete recebeu do governo federal o título de Comendador da República.</p>
+                    <br>
+                    <p class="paragrafo">Vindo a falecer em 2009, aos 93 anos, o mestre se tornou um sinônimo de força e luta, que ao partir, deixou para nós suas belas composições e principalmente seu amor pela cultura do nosso estado.</p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O Carimbó é resistência </h3>
+                    <p class="paragrafo">Mesmo com o surgimento de diversos ritmos musicais no decorrer dos anos, o Carimbó vem sendo repassado de geração em geração, graças aos esforços dos grupos culturais de diversas regiões do estado.</p>
+                    <br>
+                    <p class="paragrafo">Em Castanhal, por exemplo, temos o caso do grupo de Carimbó Novos Urbanos, que mensalmente desenvolve o projeto “Carimbó na praça”, que acontece uma vez por mês com ensaios abertos em espaços públicos da cidade.</p>
+                    <br>
+                    <p class="paragrafo">É importante que ações como essas sejam valorizadas, celebrando a tradição do ritmo paraense tanto pela comunidade local, quanto pelo poder público. Para que assim, a cultura do nosso estado seja compartilhada com as novas gerações, sem que a sua essência seja perdida.</p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A Cultura do Carimbó</h3>
+                    <p class="paragrafo">O carimbó é uma tradição perpetuada por gerações paraenses há mais de dois séculos, uma herança da fusão cultural indígena, negra e portuguesa, que se manifesta na música, na dança, no traje e nos instrumentos musicais.</p>
+                    <br>
+                    <p class="paragrafo">Muito mais que uma manifestação cultural, o carimbó se expressa nos aspectos artísticos, cultural, ambiental, social e histórico da região amazônica.</p>
+                    <br>
+                    <p class="paragrafo">E mesmo com toda essa carga histórica e cultural, o ritmo ainda consegue se reinventar. Como exemplo disso, temos a cantora Dona Onete, que com 79 anos é carimbozeira, vinda do município Iguarapé-Miri, e este ano foi indicada ao Grammy Latino de “Melhor Álbum de Música de Raízes Brasileiras”.</p>
+                    <br>
+                    <p class="paragrafo">Com o que chama de “Carimbó chamegado”, a rainha do mercado do ver-o-peso, mostra que independente do tempo que passar, o carimbó consegue se reinventar e se tornar cada vez diverso, alegre e inspirador.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

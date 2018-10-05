@@ -13,44 +13,49 @@
     color: aliceblue;
 }
 .copa{
-    background-image: url(../posts/img-posts/copa.png);
+    background-image: url(../img/copa.png);
 }
 .junino{
-    background-image: url(../posts/img-posts/festejo-junino.png);
+    background-image: url(../img/festejo-junino.png);
 }
 .idoso{
-    background-image: url(../posts/img-posts/idoso.png);
+    background-image: url(.../img/idoso.png);
 }
 .christi{
-    background-image: url(../posts/img-posts/cristi.png);
+    background-image: url(../img/cristi.png);
 }
 .adocao{
-    background-image: url(../posts/img-posts/adocao.png);
+    background-image: url(../img/adocao.png);
 }
 .transito{
-    background-image: url(../posts/img-posts/transito.png);
+    background-image: url(../img/transito.png);
 }
 .viroses{
-    background-image: url(../posts/img-posts/virose.png);
+    background-image: url(../img/virose.png);
 }
 .mae{
-    background-image: url(../posts/img-posts/mae.png);
+    background-image: url(../img/mae.png);
 }
 .suicidio{
-    background-image: url(../posts/img-posts/suicidi.png); 
+    background-image: url(../img/suicidi.png); 
 }
 .eletrica{
-    background-image: url(../posts/img-posts/electricity.png); 
+    background-image: url(../img/electricity.png); 
 }
-
+.cultura-carimbo{
+    background-image: url(../img/); 
+}
+.assedio-moral{
+    background-image: url(../img/); 
+}
 .fakenews{
-    background-image: url(); 
+    background-image: url(../img/fakenews.png); 
 }
 .setembro-vermelho{
-    background-image: url(); 
+    background-image: url(../img/setembro-vermelho.png); 
 }
 .pessoas-deficiencia{
-    background-image: url(); 
+    background-image: url(../img/dia-nacional-de-pessoas-com-deficencia.png); 
 }
 .eleicao{
     background-image: url(../img/eleicoes-2018.png); 
