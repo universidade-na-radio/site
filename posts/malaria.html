@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal malaria">Malaria</h2>
+                    <time class="data-publicacao" datetime="2018-11-19">19-11-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que é malária?</h3>
+                    <p class="paragrafo">Característica de regiões tropicais, a malária é uma doença infecciosa, transmitida por mosquitos e que representa um importante desafio da saúde pública em áreas acometidas pela doença.</p>
+                    <br>
+                    <p class="paragrafo">Dados do ministério da saúde revelam que 99,7% dos casos de malária de todo o país, acontecem na região amazônica. Esse grande número de incidências, ocorre principalmente por fatores ambientais da região: como temperaturas elevadas, umidade e mata silvestre. Essas características da região favorecem muito a multiplicação de mosquitos.</p>
+                    <br>
+                    <p class="paragrafo">Mas mesmo com a grande quantidade de mosquitos, a transmissão da malária não ocorre se não houverem indivíduos infectados em região. A transmissão da doença ocorre apenas quando o mosquito picar alguém que foi infectado pela malária e depois disso pica um outro indivíduo, dessa forma transmitindo a doença e gerando um ciclo de transmissões.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Combate ao Mosquito Transmissor da Malária.</h3>
+                    <p class="paragrafo">Uma das medidas mais importantes para o controle da doença, é o combate ao mosquito.</p>
+                    <br>
+                    <p class="paragrafo">Este controle pode ser feito de diversas formas, como por exemplo, com a borrifação do interior das casas com inseticidas adequados, com a distribuição de mosquiteiros impregnados com inseticidas para a população das áreas de risco poderem ter uma real proteção e principalmente, eliminar as zonas de criadouro dos mosquitos. Assim, é importante tomar cuidado com água parada, principalmente em locais com muitos objetos a céu aberto.</p>
+                    <br>
+                    <p class="paragrafo">Essas medidas podem diminuir as chances de que pessoas sejam picados pelo mosquito transmissor da doença.</p>
+                    <br>
+                    <p class="paragrafo">Com a movimentação de diferente esferas da união, como as coordenações dos governos municipais, estaduais e federais, é possível que o conjunto de ações preventivas a malária ocorra de modo efetivo. Além disso, é importante que ocorra a capacitação e o treinamento de profissionais da saúde na área da vigilância para que ocorra um controle do mosquito vetor da doença e que assim haja uma quebra no ciclo da malária.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Sintomas e Tratamento da Malária.</h3>
+                    <p class="paragrafo">Dentre os principais sintomas apresentados pelos portadores do vírus da malária temos: febre alta, calafrios, tremores e dores de cabeça que podem ocorrer de tempos em tempos.</p>
+                    <br>
+                    <p class="paragrafo">Qualquer pessoa pode contrair malária. Indivíduos que tiveram vários episódios da doença, podem chegar a atingir uma certa de imunidade da doença, apresentando assim, poucos ou até mesmo nenhum sintoma da doença.</p>
+                    <br>
+                    <p class="paragrafo">Em caso de qualquer sintoma, é importante procurar um médico, já que quanto mais rápido a doença for identificada, mais rápido pode ser iniciado o tratamento.</p>
+                    <br>
+                    <p class="paragrafo">No geral, após a confirmação da doença, o paciente pode iniciar o tratamento de forma gratuita pelo SUS e somente em casos mais graves ocorre a internação imediata do paciente.</p>
+                    <br>
+                    <p class="paragrafo">Quando realizado da maneira correta, o tratamento da Malária garante a cura da doença.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Mitos Sobre a Malaria</h3>
+                    <p class="paragrafo"><b>A malária é uma doença contagiosa?</b> Não existe transmissão direta de da doença de uma pessoa para outra, a malária é transmitida através da picada de mosquitos, os chamados vetores da doença.
+                    </p>
+                    <br>
+                    <p class="paragrafo"><b>Qualquer mosquito transmite a malária?</b> Não, apenas as fêmeas de mosquitos do gênero Anopheles são capazes de transmitir a doença.</p>
+                    <br>
+                    <p class="paragrafo"><b>É preciso sentir todos os sintomas para estar com malária?</b> Não, um ou mais sintomas são suficientes para procurar pelo serviço médico para obter um diagnóstico, além disso, os sintomas podem variar bastante, no geral, os sintomas da doença são febre, dores no corpo ou na cabeça, calafrios, suor entre outros.</p>
+                    <br>
+                    <p class="paragrafo"><b>O tratamento da malária é o mesmo para crianças de colo e gestantes?</b> Não, nem todo medicamento pode ser indicado para grávidas e crianças, o tratamento vai variar de acordo com o tipo da doença que foi contraída.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Mitos Sobre a Malaria</h3>
+                    <p class="paragrafo"><b>Combater o mosquito pode prevenir a malária?</b> Sim, dentre as medidas de prevenção individual, está o uso de mosquiteiros, roupas que protejam as pernas e braços, além do uso de repelentes. Já dentre as medidas de prevenção coletiva, estão ações como borrifação de inseticidas em áreas de risco e ações de combate a água parada
+                    </p>
+                    <br>
+                    <p class="paragrafo"><b>Qualquer pessoa pode contrair a malária?</b> No geral, qualquer pessoa pode contrair a doença. Indivíduos que tiveram vários episódios da doença, podem chegar a atingir uma certa de imunidade da doença, apresentando assim, poucos ou até mesmo nenhum sintoma da doença.</p>
+                    <br>
+                    <p class="paragrafo"><b>Quem contrai malária e faz o tratamento correto pode ficar curado?</b> Quando realizado de forma correta, o tratamento contra a malária garante a cura da doença. O tratamento mais adequado depende de fatores como o tipo da malária que foi contraído, a idade do paciente e outros possíveis problemas de saúde o mesmo tenha.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

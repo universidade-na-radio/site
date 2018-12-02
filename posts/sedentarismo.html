@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal sedentarismo">O Mal do Sedentarismo</h2>
+                    <time class="data-publicacao" datetime="2018-11-12">12-11-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal"> O que é o Sedentarismo?</h3>
+                    <p class="paragrafo">O sedentarismo é a falta ou ausência de atividades físicas, resultando em um gasto calórico reduzido.</p>
+                    <br>
+                    <p class="paragrafo">Uma pessoa é considerada sedentária quando não consegue gastar o mínimo de 2.200 calorias por semana com atividades físicas.</p>
+                    <br>
+                    <p class="paragrafo">Possuindo uma alta incidência na população, a condição é considerada considerado um problema de saúde pública.</p>
+                    <br>
+                    <p class="paragrafo">Acredita-se que mais de 46% da população brasileira seja sedentária. Ainda, estima-se que o sedentarismo esteja relacionado com quase 14% das mortes no Brasil.</p>
+                    <br>
+                    <p class="paragrafo">A pessoa sedentária deve procurar imediatamente um médico para iniciar uma atividade física regular. No caso de pessoas com problemas cardiopatas, diabéticos, hipertensos e portadores de doenças vasculares, é muito importante procurar um especialista para fazer todos os exames necessários nesses casos.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A Luta Contra o Sedentarismo</h3>
+                    <p class="paragrafo">A Organização Mundial da Saúde (OMS) lançou em junho deste ano, um novo plano para aumentar a prática de atividades físicas até 2030. Em todo o mundo, 20% dos adultos e 80% dos adolescentes não praticam exercícios com frequência e intensidade adequadas para sua idade.</p>
+                    <br>
+                    <p class="paragrafo">Atualmente, a agência da ONU recomenda que crianças e adolescentes de cinco a 17 anos pratiquem pelo menos 60 minutos diários de atividade física — moderada a intensa. Pelo menos três vezes na semana, os exercícios devem incluir atividades que fortaleçam os músculos e os ossos. Quatro em cada cinco jovens de 11 a 17 anos são considerados insuficientemente ativos pela OMS.</p>
+                    <br>
+                    <p class="paragrafo">Entre os adultos, a prática de atividade física moderada deve chegar a pelo menos 150 minutos ao longo da semana. Caso a pessoa prefira atividades intensas, a duração cai para pelo menos 75 minutos semanais.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Dicas para quem quer iniciar uma atividade física.</h3>
+                    <p class="paragrafo">Vários estudos atestam a importância do exercício físico regular e bem orientado para prevenção e tratamento de várias doenças e, é claro, na melhora da qualidade de vida. Então, como iniciar um programa de exercícios físicos?</p>
+                    <br>
+                    <p class="paragrafo">1. Faça uma avaliação médica, principalmente se você tem mais de 35 anos ou, mesmo sendo mais jovem, se tem algum antecedente pessoal ou familiar de doença cardíaca, diabetes e problemas ósseos e articulares.</p>
+                    <br>
+                    <p class="paragrafo">2. Para combater o sedentarismo, escolha um exercício que te agrade. Não vai adiantar, por exemplo, ir para uma academia se você prefere atividades ao ar livre.</p>
+                    <br>
+                    <p class="paragrafo">3. Use os equipamentos adequados para a modalidade escolhida. Roupas leves e tênis com bom amortecimento de impacto.</p>
+                    <br>
+                    <p class="paragrafo">4. Programe suas sessões de exercícios para a maioria dos dias da semana e em horários com temperatura agradável. No mínimo 3 dias alternados. Se os exercícios forem intensos e diários, um dia na semana é para o descanso obrigatório.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A Base para um Estilo de Vida Saudável</h3>
+                    <p class="paragrafo">Se você leva um estilo de vida sedentário, fique atento, para alcançar o bem estar é preciso ter paciência para que o corpo não condicionado fisicamente, e psicologicamente, se adapte aos treinos e alimentação saudável.</p>
+                    <br>
+                    <p class="paragrafo">Avaliação física é importante: Realizar uma avaliação física ou um check-up geral é a primeira providência, especialmente para pessoas que estão paradas há bastante tempo, é preciso ver qual o nível do condicionamento físico, se há alguma lesão ou característica individual para que o profissional de Educação Física prescreva o treino mais adequado para cada perfil.</p>
+                    <br>
+                    <p class="paragrafo">Treino adequado: O treino saudável para um iniciante requer adaptação, então, nada de exagerar, aos poucos, e no seu ritmo, vá realizando as atividades propostas.</p>
+                    <br>
+                    <p class="paragrafo">Motivação: Para dar conta da nova rotina de exercícios é preciso que a mente esteja com o mesmo objetivo que o corpo. Suas metas devem ser realistas, não importa quais sejam.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O que é atividade física?</h3>
+                    <p class="paragrafo">A atividade física pode ser entendida em um contexto muito amplo: ela é todo o tipo de movimento produzido pelos músculos, que causam um gasto energético acima do que teríamos em repouso.</p>
+                    <br>
+                    <p class="paragrafo">Em outras palavras, ela é tudo o que realizamos no dia a dia quando não estamos descansando: andar do quarto para a sala, limpar a casa, lavar a louça, passear com o cachorro, descer a escada do prédio, brincar com os filhos, levantar para atender o telefone, cuidar do jardim e muito mais.</p>
+                    <br>
+                    <p class="paragrafo">Como podemos ver, a atividade física não é algo sistematizado ou programado: ela simplesmente tem que ocorrer pela necessidade natural do ser humano, por isso ao se falar de sedentarismo, pensasse muito em atividades e práticas físicas para se afastar desta condição. Para que aos poucos a pessoa tenha um avanço em sua qualidade de vida.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

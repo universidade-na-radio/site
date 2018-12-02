@@ -60,6 +60,29 @@
 .eleicao{
     background-image: url(../img/eleicoes-2018.png); 
 }
+/*faltam imagens*/
+.cirio-2018{
+    background-image: url(../img/); 
+}
+.outubro-rosa{
+    background-image: url(../img/); 
+}
+.orientacoes-enem{
+    background-image: url(../img/); 
+}
+.redacao-enem{
+    background-image: url(../img/); 
+}
+.novembro-azul{
+    background-image: url(../img/); 
+}
+.sedentarismo{
+    background-image: url(../img/); 
+}
+/*faltam imagens*/
+.malaria{
+    background-image: url(../img/malaria.png);
+}
 .data-publicacao {
     /* margin-right: 50px; */
     float: right;

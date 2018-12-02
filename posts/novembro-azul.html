@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal novembro-azul">Novembro azul: Mês de prevenção ao câncer de próstata.</h2>
+                    <time class="data-publicacao" datetime="2018-11-05">05-11-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A necessidade da campanha.</h3>
+                    <p class="paragrafo">Este mês é marcado pela campanha “Novembro Azul”, que pretende conscientizar os homens sobre a importância de cuidar da saúde.</p>
+                    <br>
+                    <p class="paragrafo">O câncer de próstata é o principal tema do período, já que este é o segundo tipo de câncer que mais atinge a população masculina — atrás apenas do câncer de pele. O INCA (Instituto Nacional do Câncer) estima que 68.000 novos casos da doença devam surgir este ano, o que representa cerca de sete diagnósticos por hora.</p>
+                    <br>
+                    <p class="paragrafo">É importante que  os homens com idade a partir dos 50 anos, se consultar anualmente com um urologista. Mas aqueles que têm casos de câncer de próstata em parentes próximos (pai, irmãos ou tios) precisam procurar atendimento com um especialista aos 45 anos, porque fazem parte do grupo de risco, assim como os negros, que, segundo estudos, são mais propensos a desenvolver esse tipo de câncer mais cedo.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">O combate ao câncer de próstata.</h3>
+                    <p class="paragrafo">O Câncer de Próstata é o resultado de uma multiplicação desordenada das células da próstata. Quando existe presença de câncer, a glândula endurece. Na fase inicial, o câncer de próstata não tem sintomas. Em 95% dos casos, eles aparecem em estágio avançado.</p>
+                    <br>
+                    <p class="paragrafo">Portanto, exames preventivos frequentes são fundamentais para que a doença não seja descoberta em estado avançado. Homens a partir dos 50 anos de idade (ou 45, se houver casos de câncer de próstata na família), devem procurar um urologista anualmente para realizar os exames preventivos.</p>
+                    <br>
+                    <p class="paragrafo">Sabe-se pouco sobre a maioria dos fatores de risco em relação ao câncer de próstata, já que os estudos têm encontrado resultados inconsistentes. As justificativas que cercam a detecção precoce da doença, assim como de qualquer outro tipo de câncer é que, quanto mais rápido for identificado, maiores serão as chances de cura, além de permitir um tratamento menos agressivo.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Os homens não se consultam?</h3>
+                    <p class="paragrafo">Não é de hoje que os homens se cuidam menos que as mulheres. Mesmo com a modernidade, muitos ainda resistem em ir ao médico e fazer exames preventivos anualmente. Com isso, não é de estranhar que as mulheres vivam, em média, sete anos a mais do que os homens.</p>
+                    <br>
+                    <p class="paragrafo">A história confirma os dados de uma pesquisa do Centro de Referência em Saúde do Homem, que concluiu que mais de 50% deles já chegam aos consultórios com doenças em estágio avançado, pois só procuram tratamento quando algum sintoma atrapalha muito a rotina. Os homens têm um preconceito cultural de ir a um consultório.</p>
+                    <br>
+                    <p class="paragrafo">Eles associam isso a uma fraqueza, quando na verdade é um sinal de que estar atento à saúde é se preocupar também com a família. É um sinal de inteligência e força.</p>
+                    <br>
+                    <p class="paragrafo">Por isso, homens, é importante fazer check-ups anuais, especialmente depois dos 40 anos, para assim poder acompanhar e prevenir doenças.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Perguntas frequentes sobre o câncer de próstata.</h3>
+                    <p class="paragrafo">Qual é a função da próstata?<br/>
+                        A próstata é a glândula responsável pela produção de cerca de 70% do líquido seminal, e está ligada à fertilidade masculina.</p>
+                    <br>
+                    <p class="paragrafo">Qual é a chance de um homem ter câncer de próstata?<br/>
+                        Cerca de 10% dos homens após os 50 anos de idade desenvolvem a doença. Conforme o envelhecimento, as chances crescem, podendo acometer 50% dos homens aos 75 anos.</p>
+                    <br>
+                    <p class="paragrafo">Existe algum exame que substitua o toque retal?<br/>
+                        Não, nenhum outro exame consegue o diagnóstico com a mesma eficácia, que a palpação digital, pois o câncer de próstata pode ficar em área endurecida, região facilmente acessível ao toque retal.</p>
+                    <br>
+                    <br>
+                    <p class="paragrafo">Existem vacinas contra o câncer de próstata?<br/>
+                        Não há na medicina ainda uma vacina contra esse tipo de doença. Alguns pesquisadores tentam desenvolver esse procedimento usando as próprias células tumorais, mas ainda sem sucesso.</p>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Ações de prevenção ao câncer de próstata.</h3>
+                    <p class="paragrafo"><b>Não fume!</b><br/>
+                        Essa é a regra mais importante para prevenir o câncer. Ao fumar, são liberadas no ambiente mais de 4.700 substâncias tóxicas e cancerígenas que são inaladas por fumantes e não fumantes. Parar de fumar e de poluir o ambiente é fundamental para a prevenção do câncer.
+                        </p>
+                    <br>
+                    <p class="paragrafo"><b>Alimentação saudável protege contra o câncer.</b><br/>
+                        A alimentação deve ser variada, equilibrada, saborosa, respeitar a cultura e proporcionar prazer e saúde. Frutas, legumes, verduras, cereais integrais e feijões são os principais alimentos protetores. Comer esses alimentos diariamente pode evitar o desenvolvimento de câncer.</p>
+                    <br>
+                    <p class="paragrafo"><b>Pratique atividades físicas diariamente.</b><br/>
+                        A atividade física consiste na iniciativa de se movimentar, de acordo com a rotina de cada um. Você pode, por exemplo, caminhar, dançar, trocar o elevador pelas escadas, levar o cachorro para passear, cuidar da casa ou do jardim. <br/> Ações simples como essas podem causar uma diferença enorme na sua saúde e no combate ao câncer de próstata. </p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

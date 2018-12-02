@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal orientacoes-enem">Orientações para ENEM</h2>
+                    <time class="data-publicacao" datetime="2018-10-22">22-10-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">ENEM: Orientações sobre a data, local das provas e material de uso.</h3>
+                    <p class="paragrafo">O Exame Nacional do Ensino Médio (Enem) avalia o desempenho do estudante para acesso a Educação Superior.</p>
+                    <br>
+                    <p class="paragrafo"><b>Orientações:</b></p>
+                    <br>
+                    <p class="paragrafo">Os participantes podem acessar seus locais de prova entre 12h e 13h (Horário Oficial de Brasília).</p>
+                    <br>
+                    <p class="paragrafo">Só é permitido entrar em sala com caneta esferográfica preta produzida em material transparente e documento oficial com foto.</p>
+                    <br>
+                    <p class="paragrafo">Qualquer material a mais é guardado em um envelope porta-objetos, colocado abaixo da carteira de cada participante.</p>
+                    <br>
+                    <p class="paragrafo">Lanches também passam por fiscalização.</p>
+                    <br>
+                    <p class="paragrafo">Os participantes só podem sair da sala após duas horas de aplicação.</p>
+                    <br>
+                    <p class="paragrafo">A ida aos banheiros é acompanhada por fiscais e o participante passa por revista com detector de metais ao entrar e ao sair do banheiro.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Obrigações do participante do ENEM.</h3>
+                    <p class="paragrafo">São obrigações do participante do Enem 2018:</p>
+                    <br>
+                    <p class="paragrafo">Certificar-se de que preenche todos os requisitos exigidos para a participação no Exame.</p>
+                    <br>
+                    <p class="paragrafo">Certificar-se de que preenche todos os requisitos exigidos para a participação no Exame.</p>
+                    <br>
+                    <p class="paragrafo">Certificar-se de todas as informações e regras constantes deste Edital e das demais orientações que estarão disponíveis no endereço: <a href="http://portal.inep.gov.br/enem">portal.inep.gov.br/enem</a> e no aplicativo oficial do Enem.</p>
+                    <br>
+                    <p class="paragrafo">Certificar-se, antes da inscrição, no endereço <a href="http://enem.inep.gov.br/participante">enem.inep.gov.br/participante</a>, de que sua solicitação de isenção da taxa de inscrição e sua justificativa de ausência, se for o caso, foram aprovadas.</p>
+                    <br>
+                    <p class="paragrafo">Certificar-se, com antecedência, no endereço <a href="http://enem.inep.gov.br/participante">enem.inep.gov.br/participante</a>, e/ou aplicativo do Enem, de que sua inscrição foi confirmada e do local onde fará as provas.</p>
+                    <br>
+                    <p class="paragrafo">Chegar ao local das provas indicado no Cartão de Confirmação da Inscrição às 12h (Horário de Brasília-DF).</p>
+                    <br>
+                    <p class="paragrafo">Aguardar na sala de provas, das 13h às 13h30 (Horário de Brasília-DF), para procedimentos de segurança.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">ENEM:  Informações importantes sobre as provas</h3>
+                    <p class="paragrafo">O Exame será constituído de redação em Língua Portuguesa e de quatro provas objetivas. Cada prova objetiva terá 45 questões de múltipla escolha.</p>
+                    <br>
+                    <p class="paragrafo">As provas já são impressas com o nome do participante, seu número de inscrição e local de aplicação.</p>
+                    <br>
+                    <p class="paragrafo">No primeiro dia do Exame (4 de novembro), serão aplicadas as provas de Linguagens, Códigos e suas Tecnologias, Redação e Ciências Humanas e suas Tecnologias. A aplicação terá cinco horas e trinta minutos de duração, contadas a partir da autorização do aplicador para o início das provas.</p>
+                    <br>
+                    <p class="paragrafo">No segundo dia do Exame (11 de novembro), serão aplicadas as provas de Ciências da Natureza e suas Tecnologias e Matemática e suas Tecnologias. A aplicação terá cinco horas de duração, contadas a partir da autorização do aplicador para o início das provas.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">ENEM: Informações para as pessoas que precisam de atendimento específico.</h3>
+                    <p class="paragrafo">Para gestante, lactante, idoso, estudante em classe hospitalar e/ou pessoa com outra condição específica.</p>
+                    <br>
+                    <p class="paragrafo">Mães inscritas no Enem que ainda estão amamentando seus bebês e pediram o atendimento específico para lactantes podem levar o filho e um acompanhante para o local de provas. Mãe e filho ficam em uma sala específica e quando a mãe precisar amamentar ela pode deixar sua sala de prova, na companhia de um fiscal, e amamentar o filho na sala especial. No entanto, a mãe não pode se comunicar, em nenhuma hipótese, com o acompanhante.</p>
+                    <br>
+                    <p class="paragrafo">Para entrar e sair dessa sala especial a mãe também passa pela revista com detector de metais.</p>
+                    <br>
+                    <p class="paragrafo">A participante lactante não poderá ter acesso à sala de provas acompanhada da criança.</p>
+                    <br>
+                    <p class="paragrafo">Nos termos da legislação, é assegurado Atendimento Especializado, Específico pelo Nome Social aos participantes que requererem e comprovarem a necessidade.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Participante do ENEM em situação de Classe Hospitalar é Novidade no Enem 2018.</h3>
+                    <p class="paragrafo">O participante em situação de Classe Hospitalar poderá solicitar Atendimento Específico, indicando a opção “Classe Hospitalar” no campo próprio do Sistema de Inscrição.</p>
+                    <br>
+                    <p class="paragrafo">É considerado participante em situação de Classe Hospitalar aquele cujo processo formal de escolarização ocorre no interior de instituição hospitalar ou afim, na condição de estudante internado para tratamento de saúde.</p>
+                    <br>
+                    <p class="paragrafo">Não é considerado participante em situação de Classe Hospitalar aquele que, na data de aplicação do Enem, estiver internado para realização de partos, cirurgias ou tratamentos esporádicos, bem como pessoas que trabalham na área hospitalar.</p>
+                    <br>
+                    <p class="paragrafo">O participante em situação de Classe Hospitalar deverá apresentar, durante o período de inscrição, declaração do hospital em que estiver internado para tratamento de saúde, informando a disponibilidade de instalações adequadas para a aplicação do Exame.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>

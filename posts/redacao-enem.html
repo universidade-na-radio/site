@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universidade na Rádio e na Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main-artigos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville|Allerta|Tajawal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:regular, bold|Markazi+Text:regular, medium">
+    <link rel="stylesheet" href="../style/cabecalho.css">
+    <link rel="stylesheet" href="../style/rodape.css">
+    <link rel="stylesheet" href="../style/conteudo-post.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="logo-projeto">
+
+            <img class="logo" src="../img/microphone-logo.svg" alt="Logo do Projeto">
+            <div class="nome-projeto">
+                <span class="descricao-projeto">Universidade na Rádio e na Internet</span>
+                <br>
+                <span id="sudescricao-projeto"></span>
+            </div>
+            <script>
+                const text = 'Tecnologia Educativa à Distância';
+                const sudescricaoprojeto = document.getElementById("sudescricao-projeto");
+                const chars = text.split('');
+                let i = 0;
+                setInterval(() => {
+                    if (i < chars.length) {
+                        sudescricaoprojeto.innerHTML += chars[i++];
+                    } else {
+                        i = 0;
+                        sudescricaoprojeto.innerHTML = "";
+                    }
+                }, 100);
+            </script>
+            <!--Barra de navegação-->
+            <nav class="menu-navegacao">
+                <ul class="lista-menu-pricipal">
+                    <li class="lista-menu">
+                        <a href="../index.html" class="cabecalhoLink">Home</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../artigos.html" class="cabecalhoLink">Artigos</a>
+                    </li>
+                    <li class="lista-menu">
+                        <a href="../sobre.html" class="cabecalhoLink">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <!--Conteúdo principal de artigos-->
+    <main class="principal">
+        <section class="artigo-da-semana">
+            <article class="artigo-principal">
+                <header class="cabecalho-artigo-principal">
+                    <h2 class="titulo-artigo-principal redacao-enem">A Redação no ENEM</h2>
+                    <time class="data-publicacao" datetime="2018-10-29">29-10-2018</time>
+                </header>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Dicas para uma boa redação</h3>
+                    <p class="paragrafo">Com a aproximação do Exame Nacional do Ensino Médio (Enem), os estudantes que vão fazer a prova, ficam bastante nervosos, principalmente quando se fala em redação, por isso no decorrer desta semana iremos citar algumas dicas para os ouvintes que iram fazer a prova.</p>
+                    <br>
+                    <p class="paragrafo">Num primeiro momento, é interessante conhecer os critérios da equipe avaliadora. No caso do Enem, a redação é corrigida considerando 5 características principais (que eles chamam de 5 “competências”).</p>
+                    <br>
+                    <p class="paragrafo">O formato de redação escolhido pelo o Enem, é a dissertação-argumentativa. Esse gênero possibilita que o estudante construa uma tese inicial e defender diferentes pontos de vista ao longo do texto.</p>
+                    <br>
+                    <p class="paragrafo">Assim, para que o estudante tenha ideias bem definidas, é necessário que ele treine bastante, faça diversas redações em casa, focado em temáticas atuais e bem definidas.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Conheça as 5 competências de uma boa redação.</h3>
+                    <p class="paragrafo">Competência 1: demonstrar domínio da norma culta da língua escrita.<br/>
+                        Essa competência avalia os aspectos básicos da língua portuguesa, como a maneira correta de escrever as palavras, o emprego correto das expressões, etc. Nessa correção, o candidato recebe uma avaliação que sinaliza o conhecimento das regras básicas de português. É fundamental que o candidato conheça as diferenças entre a linguagem oral e escrita para se sair bem nessa avaliação.
+                    </p>
+                    <br>
+                    <p class="paragrafo">Competência 2: compreender a proposta da redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema.<br/>
+                        Ela verifica se o candidato conseguiu ser fiel ao tema. Escrevendo sobre o assunto proposto sem perder o foco. Pois é comum que muitos candidatos acabem falando mais sobre outros aspectos relacionados ao tema do que sobre o próprio tema em si. A capacidade de ser fiel ao tema é muito importante para uma boa redação, e é por isso que existe essa competência.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Conheça as 5 competências de uma boa redação.</h3>
+                    <p class="paragrafo">Competência 3: selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista.<br/>
+                        Essa competência avalia de uma forma geral a organização do  texto e a utilização correta das conjunções (mas, porém, pois, porque, etc.), que são os termos responsáveis por conectar as frases e uni-las de forma coerente. A maneira como você organiza as ideias também é fundamental para a correta interpretação do texto, por isso que essa competência é tão importante de ser verificada nos candidatos.</p>
+                    <br>
+                    <p class="paragrafo">Competência 4: demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação.<br/> 
+                        A competência 4 está um pouco relacionada com a competência 3, mas nesse caso o ponto central avaliado é o sequenciamento das ideias: cada frase precisa estar inserida corretamente no contexto do seu respectivo parágrafo, para não prejudicar a lógica do texto e a linha de pensamento.</p>
+                    <br>
+                    <p class="paragrafo"></p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">Conheça as 5 competências de uma boa redação.</h3>
+                    <p class="paragrafo">Competência 5: elaborar proposta de solução para o problema abordado, mostrando respeito aos valores humanos e considerando a diversidade sociocultural.<br/>
+                        Essa competência, antes de tudo, já deixa claro a importância de se considerar e valorizar as diferenças culturais e sociais. Isso significa que você não deve se restringir a uma cultura ou sociedade manifestando parcialidade que induza ao preconceito, à segregação ou ao menosprezo. Não pense em fazer uma redação para o Enem sem considerar a diversidade cultural e social.</p>
+                    <br>
+                    <p class="paragrafo">Com base nesse critério, o que os corretores do Enem esperam da sua redação na competência 5 é que a conclusão traga uma solução para o problema que foi exposto na proposta do tema. Para tanto, é preciso ser coerente com o que já foi mencionado ao longo do texto. Você precisa, ao longo da redação, direcionar o leitor para uma linha de raciocínio que finalize na solução e conclusão do tema, deixando claro a sua posição sobre o assunto.</p>
+                    <br>
+                </blockquote>
+                <blockquote>
+                    <h3 class="subtitulo-artigo-principal">A base da redação</h3>
+                    <p class="paragrafo">Lembre-se sempre da estrutura básica da dissertação-argumentativa</p>
+                    <br>
+                    <p class="paragrafo"><b>Introdução:</b> Apresente o tema e o recorte que você fará dele. Evite fazer rodeios. É recomendável que a tese seja exposta para direcionar a leitura e mostrar sua linha de raciocínio. Lembre-se de que na dissertação seus argumentos devem ser usados para convencer quem estiver lendo.</p>
+                    <br>
+                    <p class="paragrafo"><b>Desenvolvimento:</b> Defenda a sua tese apresentando ideias que a justifiquem, de forma consistente, e apresente seus argumentos. Essa parte é importante, por isso coloque tudo da forma mais clara possível para que o leitor compreenda seu ponto de vista. Para deixar organizado, uma dica é reservar um parágrafo para cada argumento, analisando todos os aspectos que você quer abordar.</p>
+                    <br>
+                    <p class="paragrafo"><b>Conclusão:</b> Retome as ideias expostas na introdução, junto com os principais argumentos que a justificam para confirmar a tese e encerrar o debate. Diferente das outras redações, no Enem é nessa parte que você deve propor a solução ao problema, a partir dos pontos já levantados durante sua redação.</p>
+                    <br>
+                </blockquote>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <ul class="rodape-ul">
+                <li class="li-rodape-icon">
+                    <a href="https://www.facebook.com/Universidade-na-Rádio-e-na-Internet-Tecnologia-Educativa-à-Distância-629028350770663/"
+                        target="_blank" title="Universidade na Rádio e na Internet">
+                        <img class="rodape-icon facebook" src="../img/social/facebook.svg" alt="Link do Facebook">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://www.whatsapp.com/business/api" target="_blank" title="WhatsApp">
+                        <img class="rodape-icon " src="../img/social/whatsapp.png" alt="Link do grupo de WhatsApp">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="http://atlanticofm.com.br/" target="_blank" title="Rádio Atlântico FM">
+                        <img class="rodape-icon" src="../img/social/radio.jpg" alt="Link da Rádio">
+                    </a>
+                </li>
+                <li class="li-rodape-icon">
+                    <a href="https://github.com/universidade-na-radio/site" target="_blank" title="GitHub">
+                        <img class="rodape-icon" src="../img/social/github.svg" alt="Link para o github do Projeto">
+                    </a>
+                </li>
+            </ul>
+            <p class="copy-ufpa">&copy; UFPA - Universidade Federal do Pará</p>
+        </div>
+    </footer>
+</body>
+
+</html>
